@@ -19,13 +19,16 @@
         <a href="#">S'inscrire</a>
     </header>
     <main>
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
-        <form action="GET">
-            <span><i class="fas fa-info"></i></span>
-            <input type="text" placeholder="Marseille, France">
-            <button>Rechercher</button>
-        </form>
+        <section id="section-Filter">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+            <form action="POST">
+                <span><i class="fas fa-info"></i></span>
+                <label for="recherche">Recherche</label>
+                <input type="submit" id="recherche" name="recherche_par_ville" placeholder="Marseille, France">
+                <button>Rechercher</button>
+            </form>
+        </section>
     </main>
     <footer>
         <nav>
