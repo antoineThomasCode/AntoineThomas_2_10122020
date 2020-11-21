@@ -35,7 +35,9 @@
 
 /*           1 . Layout du Header                  */
 
-
+body {
+    background-color: aquamarine;
+}
 
 
 
