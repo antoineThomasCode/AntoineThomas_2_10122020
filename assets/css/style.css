@@ -109,7 +109,6 @@ input[type=text] {
     font-size: 40px;
     font-weight: bold;
     color: black;
-    margin-left: ;
     padding-left: 10px;
 
 }
@@ -172,7 +171,6 @@ input[type=submit] {
 }
 #section-Filter p {
     font-size: 15px;
-    margin-left: px;
     font-weight: 400;
     
 }
@@ -225,7 +223,7 @@ input[type=submit] {
 
 .container-infos-articles-lesPlusPopulaires {
     padding: 40px;
-    align-items: space-between;
+    align-items: center;
 }
 .container-infos-articles-lesPlusPopulaires h3 {
     font-weight: 800;
