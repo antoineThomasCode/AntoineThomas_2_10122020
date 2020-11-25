@@ -239,6 +239,9 @@ input[type=submit] {
     margin-bottom: 70px;
     color: black;
 }
+.container-infos-articles-lesPlusPopulaires .fa-star {
+    font-size: 25px;
+}
 
 /* SECTION HEBERGEMENTS */ 
 
@@ -288,4 +291,43 @@ input[type=submit] {
     color: #F2F2F2;
     padding: 0 0 10px 10px;
 
+}
+
+/* SECTION AVTIVITES */ 
+
+#section-activites {
+    padding: 50px 15px 30px 15px;
+    margin: 50px 0 30px 0;
+
+}
+
+#section-activites h2 {
+    padding: 20px 10px 30px 10px;
+    font-size: 50px;
+    font-weight: 800;
+}
+#section-activites article {
+    align-content: space-between;
+    margin: 50px 20px 50px 20px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow:  5px 5px 28px 32px rgba(173,173,173,0.09)
+    ;
+}
+#section-activites a {
+    text-decoration: none;
+    color:  black;
+    font-weight: bold;
+}
+#section-activites h3 {
+    padding: 40px;
+    font-size: 20px;
+    font-weight: 800;
+}
+#section-activites img {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
 }
