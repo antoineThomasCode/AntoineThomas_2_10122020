@@ -1,0 +1,4 @@
+/* activation des étoiles en bleut */
+.active {
+    color: #0065FC;
+}

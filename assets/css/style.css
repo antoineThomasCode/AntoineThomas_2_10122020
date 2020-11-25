@@ -177,7 +177,7 @@ input[type=submit] {
     
 }
 
-/* SECTION HEBERGEMENTS */
+/* SECTION LES PLUS POPULAIRES */
 
 #section-lesPlusPopulaires {
     padding: 70px 15px 30px 15px;
@@ -197,7 +197,12 @@ input[type=submit] {
 }
 
 #section-lesPlusPopulaires article  {
-    margin: 50px 5px 50px 5px;
+    margin: 40px 20px 40px 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 40px;
+    border: 2px solid white;
+    box-shadow:  5px 5px 40px 22px rgba(0,0,0,0.06);
 }
 .fa-chart-line {
     float: right;
@@ -209,4 +214,26 @@ input[type=submit] {
     padding: 30px 10px 30px 10px;
     font-size: 60px;
     font-weight: bold;
+}
+#section-lesPlusPopulaires img {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.container-infos-articles-lesPlusPopulaires {
+    padding: 40px;
+    align-items: space-between;
+}
+.container-infos-articles-lesPlusPopulaires h3 {
+    font-weight: 800;
+    font-size: 48px;
+}
+.container-infos-articles-lesPlusPopulaires p {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 70px;
 }
