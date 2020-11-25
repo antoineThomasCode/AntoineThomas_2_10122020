@@ -57,7 +57,7 @@ header li:hover {
 
 main {
     margin-top: 15px;
-    padding: 20px 80px 80px 80px;
+    padding: 20px 0 80px 0;
 }
 
 /* SECTION SEARCH */
@@ -68,7 +68,9 @@ main h1 {
     margin-bottom: 35px;
     margin-top: 40px;
 }
-
+#section-Search {
+    padding: 0 75px 0 75px;
+}
 #section-Search p {
     font-size: 15px;
     font-weight: 600;
@@ -86,6 +88,7 @@ main h1 {
     border-radius: 30px;
     justify-content:space-between;
     margin-top: 100px;
+    margin-bottom: 70px;
 }
 #section-Search i {
     font-size: 40px;
@@ -106,8 +109,8 @@ input[type=text] {
     font-size: 40px;
     font-weight: bold;
     color: black;
-    margin-left: 0px;
-    padding-left: 30px;
+    margin-left: ;
+    padding-left: 10px;
 
 }
 input[type=submit] {
@@ -118,4 +121,92 @@ input[type=submit] {
     color: white;
     background-color: #0065FC;
     border-radius: 30px;
+}
+
+
+/*SECTION FILTER*/
+
+#section-Filter {
+    margin-bottom: 30px;
+    padding: 0 65px 0 65px;
+}
+
+#section-Filter h3 {
+    margin-bottom: 30px;
+}
+#section-Filter ul {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 45px;
+}
+#section-Filter i {
+    display: inline-block;
+    font-size: 35px;
+    padding: 35px;
+    background-color: #DEEBFF;
+    border-radius: 90px;
+    margin-right: 10px;
+    color: #0065FC;
+}
+#section-Filter li {
+    display: inline-block;
+    font-size: 35px;
+    margin: 3px;
+    font-weight: bold;
+    padding-right: 40px;
+    border-radius: 90px;
+    border: solid 5px #DEEBFF;
+    margin-bottom: 20px;
+}
+#section-Filter li:hover {
+    background-color: #DEEBFF;
+}
+#section-Filter .fa-info {
+    font-size: 10px;
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    margin: 0 30px 20px 0;
+    float: left;
+
+}
+#section-Filter p {
+    font-size: 15px;
+    margin-left: px;
+    font-weight: 400;
+    
+}
+
+/* SECTION HEBERGEMENTS */
+
+#section-lesPlusPopulaires {
+    padding: 70px 15px 30px 15px;
+    margin: 50px 0 30px 0;
+    background-color: #F2F2F2;
+}
+
+#diviseur-main {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#section-lesPlusPopulaires a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+#section-lesPlusPopulaires article  {
+    margin: 50px 5px 50px 5px;
+}
+.fa-chart-line {
+    float: right;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+#section-lesPlusPopulaires h2 {
+    padding: 30px 10px 30px 10px;
+    font-size: 60px;
+    font-weight: bold;
 }
