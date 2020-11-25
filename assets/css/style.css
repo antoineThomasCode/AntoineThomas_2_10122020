@@ -193,7 +193,6 @@ input[type=submit] {
 #section-lesPlusPopulaires a {
     display: flex;
     text-decoration: none;
-    color: black;
     color:  #F2F2F2;
 }
 
@@ -214,7 +213,7 @@ input[type=submit] {
 #section-lesPlusPopulaires h2 {
     padding: 30px 10px 30px 10px;
     font-size: 60px;
-    font-weight: bold;
+    font-weight: 800;
 }
 #section-lesPlusPopulaires img {
     border-top-left-radius: 40px;
@@ -239,4 +238,54 @@ input[type=submit] {
     margin-top: 10px;
     margin-bottom: 70px;
     color: black;
+}
+
+/* SECTION HEBERGEMENTS */ 
+
+
+#section-hebergements {
+    padding: 40px 25px 30px 25px;
+    margin: 40px 0 30px 0;
+}
+#section-hebergements article {
+    align-content: space-between;
+    margin: 40px 20px 40px 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 40px;
+    border: 2px solid white;
+    box-shadow:  5px 5px 40px 22px rgba(0,0,0,0.06);
+}
+#section-hebergements h2 {
+    padding: 20px 10px 30px 10px;
+    font-size: 50px;
+    font-weight: 800;
+}
+#section-hebergements img {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+#section-hebergements a {
+    text-decoration: none;
+    color:  black;
+    font-weight: bold;
+}
+#section-hebergements h3 {
+    color: black;
+    padding: 10px 0px 10px 15px ;
+    font-size: 35px;
+    font-weight: 800;
+}
+#section-hebergements p {
+    padding: 10px 0px 10px 15px ;
+    margin-bottom: 20px;
+    color: black; 
+}
+#section-hebergements .etoiles {
+    color: #F2F2F2;
+    padding: 0 0 10px 10px;
+
 }
