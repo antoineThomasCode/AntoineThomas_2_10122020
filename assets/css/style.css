@@ -194,6 +194,7 @@ input[type=submit] {
     display: flex;
     text-decoration: none;
     color: black;
+    color:  #F2F2F2;
 }
 
 #section-lesPlusPopulaires article  {
@@ -230,10 +231,12 @@ input[type=submit] {
 .container-infos-articles-lesPlusPopulaires h3 {
     font-weight: 800;
     font-size: 48px;
+    color: black;
 }
 .container-infos-articles-lesPlusPopulaires p {
     font-size: 35px;
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 70px;
+    color: black;
 }
