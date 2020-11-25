@@ -104,17 +104,16 @@ main h1 {
 #section-Search i:first-child {
     padding-right: 45px;
 }
-.fa-search {
-    
-}
+
 input[type=text] {
     height: 100px;
     border: none;
     font-size: 40px;
     font-weight: bold;
     color: black;
-    padding-left: 10px;
-
+    position: relative;
+    right: 70px;
+    padding-left: 20px;
 }
 input[type=submit] {
     display: none;
