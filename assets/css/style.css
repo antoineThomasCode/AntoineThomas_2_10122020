@@ -5,8 +5,8 @@
     margin: 0;
 }
 .fa-star {
-    padding-right: 5px;
-    font-size: 20px;
+    padding: 2px;
+    font-size: 40px;
 }
 
 /* STYLE DU HEADER------------------------------------------------------------
@@ -276,7 +276,7 @@ input[type=submit] {
 #section-hebergements a {
     text-decoration: none;
     color:  black;
-    font-weight: bold;
+    font-weight:;
 }
 #section-hebergements h3 {
     color: black;
@@ -292,8 +292,18 @@ input[type=submit] {
 }
 #section-hebergements .etoiles {
     color: #F2F2F2;
-    padding: 0 0 10px 10px;
+    padding: 0 0 20px 20px;
+    display: flex;
 
+}
+#afficher-plus {
+    font-weight: bold;
+    padding: 30px;
+    margin: 0 0 0 10px;
+    font-size: 40px;
+}
+#afficher-plus:hover {
+    color: #0065FC;
 }
 
 /* SECTION AVTIVITES */ 
