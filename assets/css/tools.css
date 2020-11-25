@@ -2,3 +2,8 @@
 .active {
     color: #0065FC;
 }
+/* prix bas */
+
+.prix-bas {
+    font-weight: bold;
+}
