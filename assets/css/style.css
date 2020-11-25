@@ -288,6 +288,7 @@ input[type=submit] {
     padding: 10px 0px 10px 15px ;
     margin-bottom: 20px;
     color: black; 
+    font-weight: 500;
 }
 #section-hebergements .etoiles {
     color: #F2F2F2;
