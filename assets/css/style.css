@@ -57,7 +57,7 @@ header li:hover {
 
 main {
     margin-top: 15px;
-    padding: 20px 0 80px 0;
+    padding: 20px 0 30px 0;
 }
 
 /* SECTION SEARCH */
@@ -297,7 +297,7 @@ input[type=submit] {
 
 #section-activites {
     padding: 50px 15px 30px 15px;
-    margin: 50px 0 30px 0;
+    margin: 50px 0 20px 0;
 
 }
 
@@ -330,4 +330,32 @@ input[type=submit] {
     height: 400px;
     width: 100%;
     object-fit: cover;
+}
+
+/* STYLE DU FOOTER                    
+------------------------------------------------------------------------
+------------------------------------------------------------------------*/
+
+footer {
+    background-color: #F2F2F2;
+    padding: 60px 50px;
+}
+footer ul {
+    list-style: none;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer a:hover {
+    color: #0065FC;
+}
+
+footer h3 {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 40px 0;
+}
+footer li {
+    padding: 15px 0;
 }
