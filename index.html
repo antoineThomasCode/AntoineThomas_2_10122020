@@ -5,49 +5,53 @@
     <meta name="description" content="Trouvez votre hébergement pour des vacances de rêve">
     <meta name="keywords" content="Hébergements, Activités, Tourisme, nature, ville, vacances, voyage">
     <script src="https://kit.fontawesome.com/c4df895579.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Reservia</title>
-    <link rel="stylesheet" href="/assets/css/tools.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/tools.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    <header>
-        <a href="#"><img src="images/logo/logo-reservia.png" alt="logo de Réservia"></a>
-        <nav>
-            <ul>
-                <li><a href="#">Hébergements</a></li>
-                <li><a href="#">Activités</a></li>
+<body class="">
+    <header class="d-flex">
+        <a href="#"><img class="margin-3rem " src="images/logo/logo-reservia.png" alt="logo de Réservia"></a>
+        <nav class="d-flex">
+            <ul class="d-flex">
+                <li class=" d-flex"><a href="#">Hébergements</a></li>
+                <li class="  d-flex"><a href="#">Activités</a></li>
             </ul>
         </nav>
-        <a href="#">S'inscrire</a>
+        <a href="#" class="bold" id="inscription">S'inscrire</a>
     </header>
     <main>
 
         <!-- SECTION SEARCH -->
 
-        <section id="section-Search">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <section class="" id="section-Search">
+            <h1 class="margin-3rem bold">Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
-            <form action="#" method="POST">
+            <form class="margin-3rem d-flex space-btw-content" action="#" method="POST">
                 <span><i class="fas fa-map-marker-alt"></i></span>
-                <label for="recherche">Recherche</label>
-                <input type="text" id="recherche" name="recherche_par_ville" placeholder="Marseille, France">
-                <input type="submit" value="Rechercher">
+                <label class="d-none" for="recherche">Recherche</label>
+                <input type="text" class="bold" id="recherche" name="recherche_par_ville" placeholder="Marseille, France">
+                <input type="submit" class="d-none" value="Rechercher">
+                <i class="fas fa-search"></i>
             </form>
         </section>
-        <section id="section-Filter">
-            <h3>Filtres</h3>
-            <ul>
-                <li><span><i class="fas fa-money-bill-wave"></i></span>Economique</li>
-                <li><span><i class="fas fa-child"></i></span>Familial</li>
-                <li><span><i class="fas fa-heart"></i></span>Romantique</li>
-                <li><span><i class="fas fa-dog"></i></span>Animaux autorisés</li>
+        <section class="margin-3rem" id="section-Filter">
+            <h3 class="bold margin-btm-3rem">Filtres</h3>
+            <ul class=" space-btw-content f-wrap d-flex margin-btm-3rem">
+                <li class="bold d-flex"><span><i class="fas fa-money-bill-wave"></i></span>Economique</li>
+                <li class="bold d-flex"><span><i class="fas fa-child"></i></span>Familial</li>
+                <li class="bold d-flex"><span><i class="fas fa-heart"></i></span>Romantique</li>
+                <li class="bold d-flex"><span><i class="fas fa-dog"></i></span>Animaux autorisés</li>
             </ul>
-            <p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+            <p><i class=" fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
         </section>
 
         <!-- SECTION HEBERGEMENTS -->
 
-        <section id="section-hebergements">
+        <section class="margin-3rem" id="section-hebergements">
             <h2>Hébergements à Marseille</h2>
             <div id="container-herbegement-aticles">
                     <article>
@@ -140,7 +144,7 @@
 
         <!-- SECTION LES PLUS POPULAIRES -->
 
-        <section id="section-lesPlusPopulaires">
+        <section class="margin-3rem" id="section-lesPlusPopulaires">
             <h2>Les plus populaires <span id="icon-graph"><i class="fas fa-chart-line"></i></span></h2>
             <div id="container-lesPlusPopulaires-articles">
                 <article>
@@ -194,7 +198,7 @@
             </div>
         </section>
         <!-- SECTION ACTIVITES-->
-        <section id="section-activites">
+        <section class="margin-3rem" id="section-activites">
             <h2>Activités à Marseille</h2>
             <div id="container-activities-articles">
                 <article>
@@ -236,7 +240,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="margin-3rem">
         <nav>
             <h3>A propos</h3>
             <ul>
