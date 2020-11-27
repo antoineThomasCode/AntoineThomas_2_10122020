@@ -22,3 +22,6 @@
 .f-wrap {
     flex-wrap: wrap;
 }
+.pad-3rem {
+    padding: 3rem;
+}
