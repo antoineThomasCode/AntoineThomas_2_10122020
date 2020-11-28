@@ -1,7 +1,5 @@
 
 body {
-    margin: 0;
-    padding: 0;
     font-family:'Raleway', sans-serif;
 }
 body a {
@@ -44,8 +42,13 @@ h1 {
     font-size: 3.4rem;
 }
 h2 {
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight: bold;
+    padding: 4rem 0;
+}
+h3  {
+    font-size: 2.6rem;
+    font-weight: 700;
 }
 #section-Search p {
     padding: 0 3rem 3rem 3rem;
@@ -83,9 +86,9 @@ input[type=text]{
 }
 #section-Filter li {
     font-size: 3rem;
-    border: solid 6px #F2F2F2;
+    border: solid 6px lightgrey;
     border-radius: 70px;
-    padding-right: 2rem ;
+    padding-right: 1.9rem ;
     align-items: baseline;
     margin: 10px;
 }
@@ -97,12 +100,15 @@ input[type=text]{
     border: solid 0.1px lightgrey;
     background-color: white;
     font-size: 10px;
-    padding: 1rem 1.2rem 1rem 1.2rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    position: relative;
+    right: 1rem;
 }
 #section-lesPlusPopulaires {
     order: 1;
     background-color: #F2F2F2;
     margin: 20px 0 20px 0;
+    width: 100%;
 }
 #section-hebergements {
     order: 2;
@@ -113,4 +119,65 @@ input[type=text]{
 .fa-star {
     font-size: 25px;
     padding: 0;
+}
+.fa-chart-line {
+    float: right;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+#section-lesPlusPopulaires img {
+    height: 24rem;
+    width: 22rem;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}
+#section-lesPlusPopulaires a {
+    display: flex;
+}
+ article {
+    background-color: white;
+    border-radius: 30px;
+    border: solid 12px white;
+    margin: 2rem 0;
+}
+.container-infos-articles-lesPlusPopulaires {
+    padding: 2rem;
+    align-content: space-between;
+    
+}
+#section-lesPlusPopulaires p {
+    font-size: 2.3rem;
+}
+.fa-star {
+    color: #F2F2F2;
+    padding: 0;
+    background-color: white;
+    font-size: 2rem;
+}
+#section-hebergements img {
+    height: 20rem;
+    width: 55rem;
+    object-fit: cover;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+#section-activites img {
+    height: 30rem;
+    width: 56rem;
+    object-fit: cover;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+#section-activites article {
+    margin: 3rem;
+}
+footer {
+    background-color: #F2F2F2;
+}
+footer li {
+    font-size: 2rem;
+    line-height: 200%;
+   
 }

@@ -25,3 +25,9 @@
 .pad-3rem {
     padding: 3rem;
 }
+.vertical-space-btw-content {
+    align-content: space-between;
+}
+.pad-1-2-rem {
+    padding: 1rem 2rem;
+}
