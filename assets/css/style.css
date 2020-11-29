@@ -10,7 +10,35 @@ body a {
 body a:hover {
     color: #0065FC;
 }
-
+h1 {
+    font-size: 3.4rem;
+}
+h2 {
+    font-size: 3.4rem;
+    font-weight: bold;
+    padding: 4rem 0;
+}
+h3  {
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+p {
+    font-size: 2.3rem;
+}
+article {
+    background-color: white;
+    border-radius: 30px;
+    border: solid 12px white;
+    margin: 2rem 0;
+}
+.icon-star {
+    color: #F2F2F2;
+    padding: 0;
+    background-color: white;
+    font-size: 2rem;
+    align-self: flex-end;
+}
+/* header */
 header {
     flex-direction: column;
     font-size: 2.5rem;
@@ -19,10 +47,6 @@ header {
 header img {
     width: 25%;
     height: auto;
-}
-header ul {
-    width: 100%;
-    justify-content: center;
 }
 header li {
     padding: 3rem 9rem;
@@ -38,46 +62,35 @@ header li:hover {
     right: 50px;
     color: #0065FC;
 }
-h1 {
-    font-size: 3.4rem;
-}
-h2 {
-    font-size: 3.5rem;
-    font-weight: bold;
-    padding: 4rem 0;
-}
-h3  {
-    font-size: 2.6rem;
-    font-weight: 700;
-}
-#section-Search p {
-    padding: 0 3rem 3rem 3rem;
-    font-size: 1.2rem;
-}
-main i {
-    font-size: 3rem;
-    padding: 2.5rem;
-    background-color: #DEEBFF;
-}
+/* section search et Filter*/
 form {
     border: solid 3px #F2F2F2;
     border-radius: 30px;
-    margin: 3rem;
 }
 input[type=text]{
     font-size: 3rem;
     margin-left: 1rem;
     border: none;
 }
-.fa-map-marker-alt  {
+#section-Search .icon-loc {
     background-color: #f2f2f2;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
-.fa-search {
+#section-Search .icon-search {
     border-radius: 30px;
     background-color: #0065FC;
     color: white;
+}
+#section-Search p, #section-Filter p {
+    padding: 0 3rem 3rem 3rem;
+    font-size: 1.2rem;
+}
+
+#section-Filter i, #section-Search i {
+    font-size: 3rem;
+    padding: 2.5rem;
+    background-color: #DEEBFF;
 }
 #section-Filter .fas {
     border-radius: 50%;
@@ -95,7 +108,7 @@ input[type=text]{
 #section-Filter li:hover {
     background-color: #DEEBFF;
 }
-.fa-info {
+#section-Filter .fa-info {
     float: left;
     border: solid 0.1px lightgrey;
     background-color: white;
@@ -104,26 +117,16 @@ input[type=text]{
     position: relative;
     right: 1rem;
 }
+/* section Les Plus Populaires */
+
 #section-lesPlusPopulaires {
     order: 1;
     background-color: #F2F2F2;
     margin: 20px 0 20px 0;
-    width: 100%;
 }
-#section-hebergements {
-    order: 2;
-}
+
 #section-activites {
     order: 3;
-}
-.fa-star {
-    font-size: 25px;
-    padding: 0;
-}
-.fa-chart-line {
-    float: right;
-    padding: 0;
-    background-color: #F2F2F2;
 }
 #section-lesPlusPopulaires img {
     height: 24rem;
@@ -136,25 +139,10 @@ input[type=text]{
 #section-lesPlusPopulaires a {
     display: flex;
 }
- article {
-    background-color: white;
-    border-radius: 30px;
-    border: solid 12px white;
-    margin: 2rem 0;
-}
-.container-infos-articles-lesPlusPopulaires {
-    padding: 2rem;
-    align-content: space-between;
-    
-}
-#section-lesPlusPopulaires p {
-    font-size: 2.3rem;
-}
-.fa-star {
-    color: #F2F2F2;
-    padding: 0;
-    background-color: white;
-    font-size: 2rem;
+/* section Hébergements */
+
+#section-hebergements {
+    order: 2;
 }
 #section-hebergements img {
     height: 20rem;
@@ -163,6 +151,8 @@ input[type=text]{
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
 }
+/* section Activités */
+
 #section-activites img {
     height: 30rem;
     width: 56rem;
@@ -170,14 +160,12 @@ input[type=text]{
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
 }
-#section-activites article {
-    margin: 3rem;
-}
+/* footer */
+
 footer {
     background-color: #F2F2F2;
 }
 footer li {
     font-size: 2rem;
     line-height: 200%;
-   
 }
