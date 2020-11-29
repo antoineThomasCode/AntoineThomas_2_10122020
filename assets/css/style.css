@@ -124,41 +124,44 @@ input[type=text]{
     background-color: #F2F2F2;
     margin: 20px 0 20px 0;
 }
-
-#section-activites {
-    order: 3;
-}
 #section-lesPlusPopulaires img {
-    height: 24rem;
-    width: 22rem;
-    object-fit: cover;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+    object-fit: cover;
+    max-width: 50%;
+    min-width: 50%;
+    flex-basis: auto;
+    max-height: 20rem;
+}
 
-}
-#section-lesPlusPopulaires a {
-    display: flex;
-}
 /* section Hébergements */
 
 #section-hebergements {
     order: 2;
 }
 #section-hebergements img {
-    height: 20rem;
-    width: 55rem;
+    flex-basis: auto;
+    max-height: 25rem;
+    width: content;
     object-fit: cover;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
 }
 /* section Activités */
 
+#section-activites {
+    order: 3;
+}
 #section-activites img {
-    height: 30rem;
-    width: 56rem;
+    flex-basis: auto;
+    max-height: 25rem;
+    width: content;
     object-fit: cover;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
+}
+#afficher-plus {
+    font-size: 1.5rem;
 }
 /* footer */
 
@@ -169,3 +172,4 @@ footer li {
     font-size: 2rem;
     line-height: 200%;
 }
+
