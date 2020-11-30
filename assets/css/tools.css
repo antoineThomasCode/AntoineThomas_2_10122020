@@ -55,3 +55,6 @@
 .f-d-col {
     flex-direction: column;
 }
+.blue-stars {
+    color: #0065FC !important;
+}
