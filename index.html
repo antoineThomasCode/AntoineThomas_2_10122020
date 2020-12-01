@@ -13,47 +13,54 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="">
-    <header class="">
-        <a href="#"><img class="" src="images/logo/logo-reservia.png" alt="logo de Réservia"></a>
-        <nav class="">
-            <ul class=" ">
-                <li class=""><a href="#">Hébergements</a></li>
-                <li class=""><a href="#">Activités</a></li>
+    <header class="d-flex f-d-col w-100">
+        <a  href="#"><img id="logo" class="" src="images/logo/logo-reservia.png" alt="logo de Réservia"></a>
+        <a href="#" class="bold" id="inscription">S'inscrire</a>
+        <nav class="d-flex f-wrap w-100">
+            <ul class="d-flex w-100">
+                <li class="d-flex justify-content-center"><a href="#">Hébergements</a></li>
+                <li class="d-flex justify-content-center"><a href="#">Activités</a></li>
             </ul>
         </nav>
-        <a href="#" class="" id="inscription">S'inscrire</a>
+        
     </header>
-    <main class="">
+    <main class="d-flex f-d-col f-wrap">
 
         <!-- SECTION SEARCH -->
 
-        <section class="" id="section-Search">
-            <h1 class="">Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
-            <form class="" action="#" method="POST">
-                <span><i class="fas icon-loc fa-map-marker-alt"></i></span>
+        <section class="margin-3rem" id="section-Search">
+            <h1 class="bold">Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p class="margin-3rem-0 margin-bttm-5rem">En plein centre ville ou en pleine nature</p>
+            <form class=" d-flex space-btw-content f-d-row" action="#" method="POST">
+                <i class="fas icon-loc fa-map-marker-alt"></i>
                 <label class="d-none" for="recherche">Recherche</label>
-                <input type="text" class="" id="recherche" name="recherche_par_ville" placeholder="Marseille, France">
+                <input type="text" class="d-flex" id="recherche" name="recherche_par_ville" placeholder="Marseille, France">
                 <input type="submit" class="d-none" value="Rechercher">
                 <i class="fas icon-search fa-search"></i>
             </form>
         </section>
-        <section class="" id="section-Filter">
-            <h3 class="">Filtres</h3>
-            <ul class=" ">
-                <li class=""><span><i class="fas fa-money-bill-wave"></i></span>Economique</li>
-                <li class=""><span><i class="fas fa-child"></i></span>Familial</li>
-                <li class=""><span><i class="fas fa-heart"></i></span>Romantique</li>
-                <li class=""><span><i class="fas fa-dog"></i></span>Animaux autorisés</li>
+
+        <!-- SECTION FILTER -->
+
+        <section class="margin-3rem d-flex f-d-col" id="section-Filter">
+            <h3 class="bold margin-bttm-2rem">Filtres</h3>
+            <ul class="d-flex f-wrap ">
+                <li class="d-flex bold"><i class="fas fa-money-bill-wave"></i>Economique</li>
+                <li class="d-flex bold"><i class="fas fa-child"></i>Familial</li>
+                <li class="d-flex bold"><i class="fas fa-heart"></i>Romantique</li>
+                <li class="d-flex bold"><i class="fas fa-dog"></i>Animaux autorisés</li>
             </ul>
-            <p><i id="icon-info" class=" fas icon-info fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+            <div class="d-flex">
+                <span><i id="icon-info" class=" fas icon-info fa-info"></i></span>
+                <p id="info-Filter-phrase" class="margin-3rem-0">Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
         </section>
 
         <!-- SECTION HEBERGEMENTS -->
 
         <section class="" id="section-hebergements">
             <h2 class="">Hébergements à Marseille</h2>
-            <div class="" id="container-herbegement-aticles">
+            <div class="" id="container-herbegement-articles">
                     <article>
                         <a class="" href="#">
                             <img src="images/hebergements/Auberge-de-la-cannebiere.jpg" alt="Auberge de la Cannebière">
@@ -144,15 +151,15 @@
 
         <!-- SECTION LES PLUS POPULAIRES -->
 
-        <section class="" id="section-lesPlusPopulaires">
-            <h2 class="">Les plus populaires <i  class="float-right fas fa-chart-line"></i></h2>
-            
-            <div class="">
-                <article class="">
-                    <a class="" href="#">
-                        <img class="" src="images/populaire/Hotel-le-soleil-du-matin.jpg" alt="Hôtel Le soleil du matin">
-                        <div class="">
-                            <H3>Hôtel Le soleil du matin</H3>
+        <section class="d-flex f-wrap " id="section-lesPlusPopulaires">
+            <h2 class="pad-section-title bold">Les plus populaires</h2>
+            <i class="fas fa-chart-line float-r "></i>
+            <div class="d-flex f-wrap f-d-col">
+                <article class="d-flex">
+                    <a class="d-flex" href="#">
+                        <img class="d-flex" src="images/populaire/Hotel-le-soleil-du-matin.jpg" alt="Hôtel Le soleil du matin">
+                        <div class="d-flex f-d-col align-content-sp-btw pad-1rem">
+                            <H3 class="bold">Hôtel Le soleil du matin</H3>
                             <p>Nuit à partir de <span class="prices">128€</span></p>
                             <div class="d-flex etoiles">
                                 <i class="fas  blue-stars icon-star fa-star"></i>

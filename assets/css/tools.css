@@ -1,60 +1,76 @@
+
+
+
+/* display */
 .d-flex {
     display: flex;
-}
-
-.margin-3rem {
-    margin: 3rem;
-}
-.space-btw-content {
-    justify-content: space-between;
-}
-
-.bold {
-    font-weight: bold;
-    color: black;
 }
 .d-none {
     display: none;
 }
-.margin-btm-3rem {
-    margin-bottom: 3rem;
+
+/* margin */
+
+.margin-3rem {
+    margin: 3rem;
+}
+.margin-3rem-0 {
+    margin: 3rem 0;
+}
+.margin-bttm-5rem {
+    margin-bottom: 5rem;
+}
+.margin-bttm-2rem {
+    margin-bottom: 2rem;
+}
+
+/* padding */
+.pad-section-title {
+    padding: 5rem 0 3rem 3rem;
+}
+.pad-1rem {
+    padding: 2rem;
+}
+
+/* axe principal*/
+
+.f-d-row {
+    flex-direction: row;
 }
 .f-wrap {
     flex-wrap: wrap;
 }
-.pad-3rem {
-    padding: 3rem;
-}
-.vertical-space-btw-content {
-    align-content: space-between;
-}
-.pad-1-2-rem {
-    padding: 1rem 2rem;
-}
-.w-100 {
-    width: 100%;
+.f-d-col {
+    flex-direction: column;
 }
 .justify-content-center {
     justify-content: center;
 }
-.float-right {
-    float: right;
+.space-arnd-content {
+    justify-content: space-around;
 }
-.f-grow-1 {
-    flex-grow: 1;
+.space-btw-content {
+    justify-content: space-between;
 }
-.f-grow-2 {
-    flex-grow: 2;
+.w-100 {
+    width: 100%;
 }
-.f-shrink-1 {
-    flex-shrink: 1;
+
+/* axe secondaire */
+.align-content-sp-btw {
+    justify-content: space-between;
 }
-.f-shrink-2 {
-    flex-shrink: 2;
+
+/* font */
+.bold {
+    font-weight: bold;
 }
-.f-d-col {
-    flex-direction: column;
-}
+
 .blue-stars {
     color: #0065FC !important;
+}
+/* float */
+
+.float-r {
+    float: right;
 }

@@ -1,35 +1,34 @@
 
 body {
     font-family:'Raleway', sans-serif;
+    font-size: 60px;
 }
-body a {
+a {
     text-decoration: none;
-    color: black;
     font-weight: 500;
+    color: black;
 }
-body a:hover {
+a:hover {
     color: #0065FC;
 }
 h1 {
-    font-size: 3.4rem;
+    font-size: 3rem;
 }
 h2 {
-    font-size: 3.4rem;
-    font-weight: bold;
-    padding: 4rem 0;
+    font-size: 3.5rem;
 }
 h3  {
     font-size: 2.6rem;
-    font-weight: 700;
 }
 p {
-    font-size: 2.3rem;
+    font-size: 1rem;
+    font-weight: 500;
 }
 article {
     background-color: white;
     border-radius: 30px;
     border: solid 12px white;
-    margin: 2rem 0;
+    margin: 2rem;
     box-shadow: 0px 0px 38px -5px rgba(0,0,0,0.1);
 }
 
@@ -38,31 +37,39 @@ article {
     padding: 0;
     background-color: white;
     font-size: 2rem;
-    align-self: flex-end;
 }
+
 /* header */
 header {
-    flex-direction: column;
-    font-size: 2.5rem;
-    padding-bottom: 2rem;
+    padding: 13rem 0 2rem 0;
 }
-header img {
-    width: 25%;
-    height: auto;
+header ul {
+    
 }
 header li {
-    padding: 3rem 9rem;
+    padding: 3rem 0;
     border-bottom: solid 6px #F2F2F2;
+    font-size: 2.6rem;
+    width: 50%;
 }
 header li:hover {
     border-bottom: solid 6px #0065FC;
 }
 
 #inscription {
-    position: absolute;
-    top: 90px;
-    right: 50px;
     color: #0065FC;
+    font-size: 2.6rem;
+    align-self: flex-end;
+    position: relative;
+    bottom: 5rem;
+    right: 3.9rem;
+}
+#logo {
+    position: absolute;
+    width: auto;
+    height: 8rem;
+    left: 3rem;
+    top: 4.2rem;
 }
 /* section search et Filter*/
 form {
@@ -84,10 +91,6 @@ input[type=text]{
     background-color: #0065FC;
     color: white;
 }
-#section-Search p, #section-Filter p {
-    padding: 0 3rem 3rem 3rem;
-    font-size: 1.2rem;
-}
 
 #section-Filter i, #section-Search i {
     font-size: 3rem;
@@ -95,17 +98,19 @@ input[type=text]{
     background-color: #DEEBFF;
 }
 #section-Filter .fas {
-    border-radius: 50%;
+    border-radius: 90px;
     margin-right: 8px;
     color: #0065FC;
+    position: relative;
+    right: 1rem;
 }
 #section-Filter li {
-    font-size: 3rem;
+    font-size: 2.7rem;
     border: solid 6px lightgrey;
     border-radius: 70px;
     padding-right: 1.9rem ;
     align-items: baseline;
-    margin: 10px;
+    margin: 0.9rem;
 }
 #section-Filter li:hover {
     background-color: #DEEBFF;
@@ -114,10 +119,17 @@ input[type=text]{
     float: left;
     border: solid 0.1px lightgrey;
     background-color: white;
-    font-size: 10px;
+    font-size: 2rem;
     padding: 1rem 1.5rem 1rem 1.5rem;
     position: relative;
     right: 1rem;
+    top: 3rem;
+    display: flex;
+}
+#info-Filter-phrase {
+    font-size: 2.6rem;
+    font-weight: 400;
+    margin-left: 1rem;
 }
 /* section Les Plus Populaires */
 
@@ -130,10 +142,12 @@ input[type=text]{
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     object-fit: cover;
-    max-width: 50%;
-    min-width: 50%;
+    width: 50%;
     flex-basis: auto;
-    max-height: 20rem;
+    height: 25rem;
+}
+#graph {
+    float: right;
 }
 
 /* section Hébergements */
