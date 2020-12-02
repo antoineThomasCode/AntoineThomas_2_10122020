@@ -28,8 +28,14 @@
 .pad-section-title {
     padding: 5rem 0 3rem 3rem;
 }
+.pad-3rem {
+    padding: 3rem;
+}
+.pad-bttm-3rem {
+    padding-bottom: 3rem;
+}
 .pad-1rem {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 /* axe principal*/
@@ -57,13 +63,14 @@
 }
 
 /* axe secondaire */
-.align-content-sp-btw {
-    justify-content: space-between;
-}
+
 
 /* font */
 .bold {
     font-weight: bold;
+}
+.fs-p-article {
+    font-size: 2.5rem;
 }
 
 .blue-stars {
