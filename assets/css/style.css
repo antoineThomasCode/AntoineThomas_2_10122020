@@ -12,16 +12,16 @@ a:hover {
     color: #0065FC;
 }
 h1 {
-    font-size: 3rem;
+    font-size: 1.1em;
 }
 h2 {
-    font-size: 3.5rem;
+    font-size: 1em;
 }
 h3  {
-    font-size: 2.6rem;
+    font-size: 0.8em;
 }
 p {
-    font-size: 2rem;
+    font-size: 0.5em;
     font-weight: 500;
 }
 article {
@@ -36,20 +36,18 @@ article {
     color: #F2F2F2;
     padding: 0;
     background-color: white;
-    font-size: 2rem;
+    font-size: 0.6em;
 }
 
 /* header */
 header {
     padding: 13rem 0 2rem 0;
 }
-header ul {
-    
-}
+
 header li {
-    padding: 3rem 0;
+    padding: 3rem 2rem;
     border-bottom: solid 6px #F2F2F2;
-    font-size: 2.6rem;
+    font-size: 0.8em;
     width: 50%;
 }
 header li:hover {
@@ -58,7 +56,7 @@ header li:hover {
 
 #inscription {
     color: #0065FC;
-    font-size: 2.6rem;
+    font-size: 0.9em;
     align-self: flex-end;
     position: relative;
     bottom: 5rem;
@@ -77,7 +75,7 @@ form {
     border-radius: 30px;
 }
 input[type=text]{
-    font-size: 3rem;
+    font-size: 0.7em;
     margin-left: 1rem;
     border: none;
 }
@@ -93,7 +91,7 @@ input[type=text]{
 }
 
 #section-Filter i, #section-Search i {
-    font-size: 3rem;
+    font-size: 1em;
     padding: 2.5rem;
     background-color: #DEEBFF;
 }
@@ -105,7 +103,7 @@ input[type=text]{
     right: 1rem;
 }
 #section-Filter li {
-    font-size: 2.7rem;
+    font-size: 0.7em;
     border: solid 6px lightgrey;
     border-radius: 70px;
     padding-right: 1.9rem ;
@@ -119,7 +117,7 @@ input[type=text]{
     float: left;
     border: solid 0.1px lightgrey;
     background-color: white;
-    font-size: 2rem;
+    font-size: 0.5em;
     padding: 1rem 1.5rem 1rem 1.5rem;
     position: relative;
     right: 1rem;
@@ -127,7 +125,7 @@ input[type=text]{
     display: flex;
 }
 #info-Filter-phrase {
-    font-size: 2.6rem;
+    font-size: 0.7em;
     font-weight: 400;
     margin-left: 1rem;
 }
@@ -136,21 +134,21 @@ input[type=text]{
 #section-lesPlusPopulaires {
     order: 1;
     background-color: #F2F2F2;
-    margin: 20px 0 20px 0;
+    margin: 1rem 0;
 }
 #section-lesPlusPopulaires img {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     object-fit: cover;
     width: 40%;
-    flex-basis: auto;
+    flex: 0 0 1;
     height: 25rem;
 }
 .graph {
     position: relative;
     align-self: flex-end;
-    bottom: 2.5rem;
-    left: 20rem;
+    right: 2rem;
+    bottom: 3rem;
 }
 
 /* section Hébergements */
@@ -159,7 +157,7 @@ input[type=text]{
     order: 2;
 }
 #section-hebergements img, #section-activites img {
-    flex-basis: auto;
+    flex: 0 0 1;
     max-height: 20rem;
     width: 100%;
     object-fit: cover;
@@ -167,7 +165,7 @@ input[type=text]{
     border-top-left-radius: 30px;
 }
 #afficher-plus {
-    font-size: 3rem;
+    font-size: 0.7em;
 }
 /* section Activités */
 
@@ -183,7 +181,7 @@ footer {
     background-color: #F2F2F2;
 }
 footer li {
-    font-size: 2rem;
+    font-size: 0.6em;
     line-height: 5rem;
 }
 
