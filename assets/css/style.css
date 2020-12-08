@@ -185,3 +185,8 @@ footer li {
     line-height: 5rem;
 }
 
+@media screen and (min-width: 576px) {
+    h1 {
+        font-size: 0.9em;
+    }
+}
