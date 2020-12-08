@@ -1,7 +1,7 @@
 
 body {
     font-family:'Raleway', sans-serif;
-    font-size: 60px;
+    font-size: 20px;
 }
 a {
     text-decoration: none;
@@ -12,23 +12,23 @@ a:hover {
     color: #0065FC;
 }
 h1 {
-    font-size: 1.1em;
+    font-size: 1.4rem;
 }
 h2 {
-    font-size: 1em;
+    font-size: 1.3rem;
 }
 h3  {
-    font-size: 0.8em;
+    font-size: 1.2rem;
 }
 p {
-    font-size: 0.5em;
+    font-size: 1rem;
     font-weight: 500;
 }
 article {
     background-color: white;
-    border-radius: 30px;
-    border: solid 12px white;
-    margin: 2rem;
+    border-radius: 20px;
+    border: solid 6px white;
+    margin: 1rem;
     box-shadow: 0px 0px 38px -5px rgba(0,0,0,0.1);
 }
 
@@ -41,17 +41,17 @@ article {
 
 /* header */
 header {
-    padding: 13rem 0 2rem 0;
+    padding: 3rem 0 1rem 0;
 }
 
 header li {
-    padding: 3rem 2rem;
-    border-bottom: solid 6px #F2F2F2;
+    padding: 2rem 0 1rem 0;
+    border-bottom: solid 2px #F2F2F2;
     font-size: 0.8em;
     width: 50%;
 }
 header li:hover {
-    border-bottom: solid 6px #0065FC;
+    border-bottom: solid 2px #0065FC;
 }
 
 #inscription {
@@ -59,56 +59,58 @@ header li:hover {
     font-size: 0.9em;
     align-self: flex-end;
     position: relative;
-    bottom: 5rem;
-    right: 3.9rem;
+    right: 1.5rem;
+    bottom: 0.2rem;
 }
 #logo {
     position: absolute;
     width: auto;
-    height: 8rem;
-    left: 3rem;
-    top: 4.2rem;
+    height: 3rem;
+    left: 1rem;
+    top: 1.5rem;
 }
 /* section search et Filter*/
 form {
-    border: solid 3px #F2F2F2;
-    border-radius: 30px;
+    border: solid 2px #F2F2F2;
+    border-radius: 20px;
 }
 input[type=text]{
-    font-size: 0.7em;
+    font-size: 1.1rem;
     margin-left: 1rem;
     border: none;
 }
 #section-Search .icon-loc {
     background-color: #f2f2f2;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 #section-Search .icon-search {
-    border-radius: 30px;
+    border-radius: 20px;
     background-color: #0065FC;
     color: white;
+    position: relative;
+    right: 1rem;
 }
 
 #section-Filter i, #section-Search i {
     font-size: 1em;
-    padding: 2.5rem;
+    padding: 1.1rem;
     background-color: #DEEBFF;
 }
 #section-Filter .fas {
     border-radius: 90px;
-    margin-right: 8px;
+    margin-right: 2px;
     color: #0065FC;
     position: relative;
-    right: 1rem;
+    right: 0.5rem;
 }
 #section-Filter li {
     font-size: 0.7em;
-    border: solid 6px lightgrey;
-    border-radius: 70px;
-    padding-right: 1.9rem ;
+    border: solid 2px lightgrey;
+    border-radius: 90px;
+    padding-right: 1rem ;
     align-items: baseline;
-    margin: 0.9rem;
+    margin: 0.5rem;
 }
 #section-Filter li:hover {
     background-color: #DEEBFF;
@@ -118,14 +120,13 @@ input[type=text]{
     border: solid 0.1px lightgrey;
     background-color: white;
     font-size: 0.5em;
-    padding: 1rem 1.5rem 1rem 1.5rem;
+    padding: 0.5rem 0.7rem;
     position: relative;
-    right: 1rem;
-    top: 3rem;
+    left: 0.5rem;
+    top: 1rem;
     display: flex;
 }
 #info-Filter-phrase {
-    font-size: 0.7em;
     font-weight: 400;
     margin-left: 1rem;
 }
@@ -137,18 +138,18 @@ input[type=text]{
     margin: 1rem 0;
 }
 #section-lesPlusPopulaires img {
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     object-fit: cover;
     width: 40%;
     flex: 0 0 content;
-    height: 25rem;
+    height: 10rem;
 }
 .graph {
     position: relative;
     align-self: flex-end;
-    right: 2rem;
-    bottom: 3rem;
+    right: 1rem;
+    bottom: 1rem;
 }
 
 /* section Hébergements */
@@ -158,11 +159,11 @@ input[type=text]{
 }
 #section-hebergements img, #section-activites img {
     flex: 0 0 content;
-    max-height: 20rem;
+    max-height: 8rem;
     width: 100%;
     object-fit: cover;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 #afficher-plus {
     font-size: 0.7em;
@@ -181,12 +182,12 @@ footer {
     background-color: #F2F2F2;
 }
 footer li {
-    font-size: 0.6em;
-    line-height: 5rem;
+    font-size: 1rem;
+    line-height: 2rem;
 }
 
-@media screen and (min-width: 576px) {
-    h1 {
-        font-size: 0.9em;
+@media screen and (min-width: 900px) {
+   h1 {
+      font-size: 3em;  
     }
 }
