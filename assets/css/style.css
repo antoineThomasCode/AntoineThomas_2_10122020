@@ -141,7 +141,7 @@ input[type=text]{
     border-bottom-left-radius: 30px;
     object-fit: cover;
     width: 40%;
-    flex: 0 0 1;
+    flex: 0 0 content;
     height: 25rem;
 }
 .graph {
@@ -157,7 +157,7 @@ input[type=text]{
     order: 2;
 }
 #section-hebergements img, #section-activites img {
-    flex: 0 0 1;
+    flex: 0 0 content;
     max-height: 20rem;
     width: 100%;
     object-fit: cover;
