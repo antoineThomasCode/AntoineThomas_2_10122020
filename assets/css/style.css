@@ -69,7 +69,8 @@ header li:hover {
     position: absolute;
     top: 1.5rem;
     left: 1.5rem;
-    width: auto;
+}
+header img {
     height: 3rem;
 }
 /* section search et Filter*/
