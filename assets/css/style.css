@@ -25,6 +25,7 @@ p {
     font-weight: 500;
 }
 article {
+    flex: 0 0 100%;
     min-width: 15rem;
     max-width: 20rem;
     background-color: white;
@@ -43,6 +44,7 @@ article {
 
 /* header */
 header {
+    flex: 0 0 100%;
     padding: 3rem 0 1rem 0;
 }
 
@@ -62,14 +64,13 @@ header li:hover {
     align-self: flex-end;
     position: relative;
     right: 1.5rem;
-    bottom: 0.2rem;
 }
 #logo {
     position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
     width: auto;
     height: 3rem;
-    left: 1rem;
-    top: 1.5rem;
 }
 /* section search et Filter*/
 form {
@@ -145,8 +146,8 @@ input[type=text]{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     object-fit: cover;
-    width: 40%;
-    flex: 0 0 content;
+    max-width: 40%;
+    flex: 0 0 40%;
     height: 10rem;
 }
 .graph {
@@ -184,6 +185,7 @@ input[type=text]{
 /* footer */
 
 footer {
+    flex: 0 0 100%;
     background-color: #F2F2F2;
 }
 footer li {
