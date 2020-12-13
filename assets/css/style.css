@@ -63,6 +63,7 @@ header li:hover {
     align-self: flex-end;
     position: relative;
     right: 1.5rem;
+    bottom: 0.3rem;
 }
 #logo {
     position: absolute;
