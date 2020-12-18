@@ -106,12 +106,18 @@ header li:hover {
     font-size: 0.9em;
     font-weight: bold;
 }
+#section-Filter li:hover {
+    background-color:  #DEEBFF;
+}
 #section-Filter .fa-info {
     font-size: 0.6em;
     background-color: white;
     border: solid 0.5px lightgrey;
     padding: 5px 7px;
     float: left;
+}
+#section-Filter .fa-child {
+    padding: 15px 18px;
 }
 #section-Filter p {
     margin-top: 20px;
