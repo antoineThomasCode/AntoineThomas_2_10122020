@@ -1,0 +1,16 @@
+
+.d-flex {
+    display: flex; 
+}
+.f-dir-col {
+    flex-direction: column;
+}
+.w-100 {
+    width: 100%;
+}
+.jtfy-cnt-sp-around {
+    justify-content: space-around;
+}
+.d-none {
+    display: none; 
+}

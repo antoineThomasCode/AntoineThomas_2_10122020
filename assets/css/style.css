@@ -1,2 +1,96 @@
+body {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    font-weight: 700;
+    font-size: 1.3em;
+    padding: 10px 0;
+}
+h2 {
+    padding: 20px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+h3 {
+    padding: 10px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+p {
+    font-size: 0.95em;
+}
+section {
+    padding: 20px;
+}
+
+/* HEADER */ 
+#logo {
+    width: 30%;
+    padding: 15px;
+}
+#inscription {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 30px 20px;
+    font-weight: bold;
+    color: #0065FC;
+}
+header li {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 15px;
+    border-bottom: solid 3px #F2F2F2;
+}
+header a:hover {
+    color: #0065FC;
+}
+header li:hover {
+    border-bottom: solid 3px #0065FC;
+}
+/* SECTION SEARCH */
+
+#section-Search form {
+    margin: 30px 0 0 0;
+    justify-content: space-between;
+    border: solid 1px #F2F2F2;
+    border-radius: 20px;
+    flex: 0 0 100%;
+    max-width: 450px;
+}
+#section-Search .fa-map-marker-alt {
+    padding: 20px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#section-Search button {
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    font-size: 1em;
+    padding: 19px 19px 17px 19px;
+    border-radius: 20px;
+}
+#section-Search input[type=text] {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+    border: none;
+    width: 55%;
+}
 
 
+
+
+
+img {
+    width: 70px;
+    height: auto;
+}
