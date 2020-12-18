@@ -1,5 +1,5 @@
 body {
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Raleway', sans-serif;
 }
 a {
@@ -30,12 +30,12 @@ section {
 
 /* HEADER */ 
 #logo {
-    width: 30%;
+    width: 110px;
     padding: 15px;
 }
 #inscription {
     position: absolute;
-    top: 10px;
+    top: 8px;
     right: 0;
     padding: 30px 20px;
     font-weight: bold;
@@ -86,7 +86,36 @@ header li:hover {
     width: 55%;
 }
 
+/* SECTION FILTER */ 
 
+#section-Filter .fas {
+    position: relative; 
+    right: 1px;
+    color:  #0065FC;
+    padding: 15px 16px;
+    background-color: #DEEBFF;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+#section-Filter li {
+    border: solid 3px #F2F2F2;
+    margin: 6px;
+    padding-right: 15px;
+    border-radius: 25px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+#section-Filter .fa-info {
+    font-size: 0.6em;
+    background-color: white;
+    border: solid 0.5px lightgrey;
+    padding: 5px 7px;
+    float: left;
+}
+#section-Filter p {
+    margin-top: 20px;
+}
 
 
 
