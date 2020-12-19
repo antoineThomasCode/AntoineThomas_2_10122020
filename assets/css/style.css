@@ -25,7 +25,7 @@ p {
     font-size: 0.95em;
 }
 section {
-    padding: 20px 20px;
+    padding: 20px;
 }
 
 /* HEADER */ 
@@ -116,6 +116,9 @@ header li:hover {
     padding: 5px 7px;
     float: left;
 }
+#section-Filter h3 {
+    margin-right: 30px;
+}
 #section-Filter .fa-child {
     padding: 15px 18px;
 }
@@ -203,4 +206,16 @@ header li:hover {
 }
 #section-activites h3 {
     padding: 15px;
+}
+/* Footer */
+
+footer {
+    padding: 20px;
+    background-color:  #F2F2F2;
+}
+footer h3 {
+    margin: 20px 0;
+}
+footer li {
+    padding: 10px 0;
 }
