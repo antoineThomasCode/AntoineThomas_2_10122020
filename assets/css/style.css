@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body {
     font-size: 17px;
     font-family: 'Raleway', sans-serif;
@@ -42,8 +49,12 @@ section {
     color: #0065FC;
 }
 header li {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 50%;
     padding: 15px;
     border-bottom: solid 3px #F2F2F2;
@@ -58,10 +69,14 @@ header li:hover {
 
 #section-Search form {
     margin: 30px 0 0 0;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     border: solid 1px #F2F2F2;
     border-radius: 20px;
-    flex: 0 0 100%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
     max-width: 450px;
 }
 #section-Search .fa-map-marker-alt {
@@ -135,29 +150,43 @@ header li:hover {
     font-size: 1.3em;
 }
 #section-lesPlusPopulaires a {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     width: 100%;
 }
 #container-lesPlusPopulaires-articles img {
     width: 40%;
     height: 150px;
     min-width: 150px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 #section-lesPlusPopulaires article {
-    box-shadow: 1px 0px 21px 10px rgba(141,141,141,0.14);
+    -webkit-box-shadow: 1px 0px 21px 10px rgba(141,141,141,0.14);
+            box-shadow: 1px 0px 21px 10px rgba(141,141,141,0.14);
     background-color: white;
     padding: 5px;
     border-radius: 20px;
     margin: 10px 0;
 }
 .container-infos-articles-lesPlusPopulaires {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 5px;
 }
 .container-infos-articles-lesPlusPopulaires  h3 {
@@ -173,13 +202,15 @@ header li:hover {
     padding: 5px;
     border-radius: 20px;
     margin: 15px 0;
-    box-shadow: 1px 0px 21px 10px rgba(141,141,141,0.14);
+    -webkit-box-shadow: 1px 0px 21px 10px rgba(141,141,141,0.14);
+            box-shadow: 1px 0px 21px 10px rgba(141,141,141,0.14);
 }
 #section-hebergements img {
     width: 100%;
     height: 125px;
     min-width: 150px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -197,13 +228,15 @@ header li:hover {
 #section-activites article {
     border-radius: 20px;
     margin: 15px 0;
-    box-shadow: 1px 0px 21px 10px rgba(141,141,141,0.14);
+    -webkit-box-shadow: 1px 0px 21px 10px rgba(141,141,141,0.14);
+            box-shadow: 1px 0px 21px 10px rgba(141,141,141,0.14);
 }
 #section-activites img {
     width: 100%;
     height: 150px;
     min-width: 150px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
