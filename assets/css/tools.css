@@ -11,6 +11,9 @@
 .jtfy-cnt-sp-around {
     justify-content: space-around;
 }
+.jtfy-cnt-sp-btw {
+    justify-content: space-between;
+}
 .d-none {
     display: none; 
 }
@@ -19,4 +22,10 @@
 }
 .f-d-row {
     flex-direction: row;
+}
+.notations-active {
+    color: #0065FC !important;
+}
+.discount-price {
+    font-weight: bold;
 }
