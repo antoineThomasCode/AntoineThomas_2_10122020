@@ -9,6 +9,14 @@ body {
     font-size: 17px;
     font-family: 'Raleway', sans-serif;
 }
+header {
+    max-width: 1130px;
+    margin: 0 auto;
+}
+main {
+    max-width: 1130px;
+    margin: 0 auto;
+}
 a {
     text-decoration: none;
     color: black;
@@ -36,6 +44,9 @@ section {
 }
 
 /* HEADER */ 
+header {
+    flex: 0 0 100%;
+}
 #logo {
     width: 110px;
     padding: 15px;
@@ -75,9 +86,9 @@ header li:hover {
     border: solid 1px #F2F2F2;
     border-radius: 20px;
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-    max-width: 450px;
+        -ms-flex: 0 0 90%;
+            flex: 0 0 90%;
+    max-width: 200px;
 }
 #section-Search .fa-map-marker-alt {
     padding: 20px;
@@ -92,13 +103,13 @@ header li:hover {
     font-size: 1em;
     padding: 19px 19px 17px 19px;
     border-radius: 20px;
+    padding-right: 18px;
 }
-#section-Search input[type=text] {
+#recherche {
     font-size: 1.1em;
     font-weight: bold;
     color: black;
     border: none;
-    width: 55%;
 }
 
 /* SECTION FILTER */ 
