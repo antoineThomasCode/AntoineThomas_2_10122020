@@ -8,14 +8,12 @@
 body {
     font-size: 17px;
     font-family: 'Raleway', sans-serif;
+    min-width: 320px;
 }
-header {
+header, main {
     max-width: 1130px;
     margin: 0 auto;
-}
-main {
-    max-width: 1130px;
-    margin: 0 auto;
+    min-width: 300px;
 }
 a {
     text-decoration: none;
@@ -41,11 +39,20 @@ p {
 }
 section {
     padding: 20px;
+    min-width: 320px;
 }
-
+article {
+    min-width: 320px;
+    max-width: 650px;
+    margin: 0 auto;
+}
 /* HEADER */ 
 header {
     flex: 0 0 100%;
+    min-width: 320px;
+}
+#logo-link {
+    width: 150px;
 }
 #logo {
     width: 110px;
@@ -53,11 +60,16 @@ header {
 }
 #inscription {
     position: absolute;
-    top: 8px;
-    right: 0;
-    padding: 30px 20px;
+    top: 20px;
+    right: 3px;
     font-weight: bold;
     color: #0065FC;
+    width: 30%;
+    padding: 15px 0;
+    border: none;
+}
+#inscription a {
+    color: #0065FC;;
 }
 header li {
     display: -webkit-box;
@@ -77,18 +89,13 @@ header li:hover {
     border-bottom: solid 3px #0065FC;
 }
 /* SECTION SEARCH */
-
 #section-Search form {
-    margin: 30px 0 0 0;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    border: solid 1px #F2F2F2;
-    border-radius: 20px;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 90%;
-            flex: 0 0 90%;
-    max-width: 200px;
+    margin-top: 30px;
+    border: solid 2px #F2F2F2;
+    border-radius: 22px;
+    justify-content: space-between;
+    max-width: 330px;
+    
 }
 #section-Search .fa-map-marker-alt {
     padding: 20px;
@@ -103,13 +110,13 @@ header li:hover {
     font-size: 1em;
     padding: 19px 19px 17px 19px;
     border-radius: 20px;
-    padding-right: 18px;
 }
 #recherche {
     font-size: 1.1em;
     font-weight: bold;
     color: black;
     border: none;
+    max-width: 200px;
 }
 
 /* SECTION FILTER */ 
@@ -144,6 +151,7 @@ header li:hover {
 }
 #section-Filter h3 {
     margin-right: 30px;
+    padding-top: 20px;
 }
 #section-Filter .fa-child {
     padding: 15px 18px;
@@ -168,11 +176,13 @@ header li:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    width: 100%;
+    flex: 0 0 100%;
 }
+
 #container-lesPlusPopulaires-articles img {
-    width: 40%;
-    height: 150px;
+    flex: 0 0 40%;
+    min-height: 150px;
+    max-height: 160px;
     min-width: 150px;
     -o-object-fit: cover;
        object-fit: cover;
@@ -218,8 +228,8 @@ header li:hover {
 }
 #section-hebergements img {
     width: 100%;
-    height: 125px;
-    min-width: 150px;
+    max-height: 125px;
+    min-width: 200px;
     -o-object-fit: cover;
        object-fit: cover;
     border-top-left-radius: 20px;
@@ -227,6 +237,11 @@ header li:hover {
 }
 #section-hebergements h3, p, .notations {
     padding: 6px 0 5px 10px;
+}
+#container-herbergement-aticles {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 #afficher-plus {
     float: left;
@@ -244,8 +259,8 @@ header li:hover {
 }
 #section-activites img {
     width: 100%;
-    height: 150px;
-    min-width: 150px;
+    max-height: 125px;
+    max-width: 360px;
     -o-object-fit: cover;
        object-fit: cover;
     border-top-left-radius: 20px;
@@ -254,9 +269,15 @@ header li:hover {
 #section-activites h3 {
     padding: 15px;
 }
+#container-activities-articles {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 /* Footer */
 
 footer {
+    min-width: 320px;
     padding: 20px;
     background-color:  #F2F2F2;
 }
