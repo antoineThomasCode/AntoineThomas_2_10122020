@@ -2,33 +2,3 @@
 .d-flex {
     display: flex; 
 }
-.f-dir-col {
-    flex-direction: column;
-}
-.w-100 {
-    flex: 0 0 100%;
-}
-.margin-0-auto {
-    margin: 0 auto;
-}
-.jtfy-cnt-sp-around {
-    justify-content: space-around;
-}
-.jtfy-cnt-sp-btw {
-    justify-content: space-between;
-}
-.d-none {
-    display: none; 
-}
-.f-wrap {
-    flex-wrap: wrap;
-}
-.f-d-row {
-    flex-direction: row;
-}
-.notations-active {
-    color: #0065FC !important;
-}
-.discount-price {
-    font-weight: bold;
-}
