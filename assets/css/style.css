@@ -1,3 +1,49 @@
 * {
     box-sizing: border-box;
 }
+body {
+    font-family: Raleway;
+}
+/* header */
+header {
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.logo {
+    width: 125px;
+}
+    .logo-link {
+    padding: 20px;
+    }
+.inscription {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+}
+    .inscription-link {
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #0065FC;
+    }
+header ul {
+    justify-content: space-around;
+}
+.nav-list {
+    padding: 15px;
+    text-align: center;
+    width: 50%;
+    border-bottom: solid 3px  #F2F2F2;
+}
+    .nav-list:hover {
+        border-bottom: solid 3px  #0065FC;
+    }
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+    .nav-link:hover {
+        color: #0065FC;
+    }
+    
