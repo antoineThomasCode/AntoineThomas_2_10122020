@@ -4,6 +4,10 @@
 body {
     font-family: Raleway;
 }
+main {
+    padding: 0 20px;
+    margin: 0 auto;
+}
 /* header */
 header {
     flex-direction: column;
@@ -46,4 +50,52 @@ header ul {
     .nav-link:hover {
         color: #0065FC;
     }
-    
+/* section search */ 
+
+.section-search h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+.section-search p {
+    padding-bottom: 10px;
+    font-size: 1.1em;
+}
+.section-search form {
+    border-radius: 22px;
+    border: solid 2px  #F2F2F2;
+    margin: 20px 0;
+    justify-content: space-between;
+    max-width: 400px;
+}
+.location-icon {
+    padding: 18px;
+    background-color:  #F2F2F2;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+    .location-icon .fas {
+        font-size: 1.3em;
+    }
+#recherche {
+    border: none;
+    font-size: 1.3em;
+    padding: 10px;
+    font-weight: 500;
+    color: black;
+    max-width: 200px;
+}
+.btn-search {
+    padding: 20px;
+    border: none;
+    background-color: #0065FC;
+    border-radius: 20px;
+}
+    .btn-search--desktop {
+        display: none;
+    }
+    .btn-search--mobile {
+        color: white;
+        font-weight: bold;
+        font-size: 1.3em;
+    }

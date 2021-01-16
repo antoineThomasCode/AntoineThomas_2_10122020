@@ -31,11 +31,11 @@
         <section class="section-search">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
-            <form action="#" method="POST">
-                <span><i class="fas fa-map-marker-alt"></i></span>
-                <label for="recherche">Recherche</label>
+            <form class="d-flex" action="#" method="POST">
+                <span class="location-icon"><i class="fas fa-map-marker-alt"></i></span>
+                <label class="d-none" for="recherche">Recherche</label>
                 <input type="text" id="recherche" name="recherche_par_ville" placeholder="Marseille, France">
-                <input type="submit" value="Rechercher">
+                <button class="btn-search"><span class="btn-search--desktop">Rechercher</span><span class="btn-search--mobile"><i class="fas fa-search"></i></span></button>
             </form>
         </section>
         <section id="section-Filter">
