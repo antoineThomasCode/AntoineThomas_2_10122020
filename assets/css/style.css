@@ -104,7 +104,10 @@ header ul {
     font-size: 1em;
     padding: 10px 0;
 }
-.section-search__filters {
+.section-filter li:hover {
+    background-color: #DEEBFF;
+}
+.section-filter__filters {
     border: solid 2px  #F2F2F2;
     padding: 15px 15px 15px 0;
     border-radius: 50px;
@@ -112,12 +115,12 @@ header ul {
     font-weight: bold;
     margin: 5px;
 }
-    .section-search__filters span {
+    .section-filter__filters span {
         background-color: #DEEBFF;
         padding: 15px;
         border-radius: 50%;
-        margin-right: 5px;
+        margin-right: 4px;
     }
-    .section-search__filters .filter-icon-fa-child {
+    .section-filter__filters .filter-icon-fa-child {
         padding: 15px 18px 15px 18px;
     }
