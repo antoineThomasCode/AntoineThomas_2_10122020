@@ -13,6 +13,12 @@ header {
     flex-direction: column;
     padding-bottom: 20px;
 }
+section {
+    padding-bottom: 20px;
+}
+p {
+    font-size: 1em;
+}
 .logo {
     width: 125px;
 }
@@ -59,7 +65,6 @@ header ul {
 }
 .section-search p {
     padding-bottom: 10px;
-    font-size: 1.1em;
 }
 .section-search form {
     border-radius: 22px;
@@ -106,6 +111,18 @@ header ul {
 }
 .section-filter li:hover {
     background-color: #DEEBFF;
+}
+.section-filter .fa-info {
+    float:left;
+    border: solid 0.5px lightgrey;
+    padding: 5px 7px;
+    border-radius: 50%;
+    font-size: 0.5em;
+    margin-right: 8px;
+    color: #0065FC;
+}
+.section-filter p {
+    margin-top: 20px;
 }
 .section-filter__filters {
     border: solid 2px  #F2F2F2;
