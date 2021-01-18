@@ -179,7 +179,7 @@ header ul {
     .wrapper-theMostPopular__articles img {
         object-fit: cover;
         width: 33%;
-        height: 150px;
+        height: 160px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
     }
@@ -261,4 +261,55 @@ footer a {
 }
 footer li {
     padding: 10px 0;
+}
+@media only screen and (min-width: 576px) {
+    .wrapper-accommodation__articles, .wrapper-activities__articles {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .wrapper-accommodation__articles article, .wrapper-activities__articles article {
+        width: 45%;
+    }
+    
+}
+@media only screen and (min-width: 768px) {
+    header {
+        flex-direction: row;
+    }
+    .wrapper-theMostPopular__articles {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .wrapper-theMostPopular__articles article {
+        width: 30%;
+    }
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    header {
+        justify-content: space-between;
+    }
+    .inscription {
+        position: static;
+        padding: 43px;
+    }
+    .nav-list {
+        border-bottom: none;
+        border-top: solid 3px white;
+        padding: 40px;
+    }
+    .nav-list:hover {
+        border-top: solid 3px  #0065FC;
+        border-bottom: none; 
+    }
+}
+@media only screen and (min-width: 992px) {
+    .wrapper-accommodation__articles article, .wrapper-activities__articles article {
+        width: 30%;
+    }
+    .section-theMostPopular {
+        border-radius: 20px;
+    }
 }
