@@ -48,7 +48,7 @@ header {
 }
     .logo-link {
     padding: 20px;
-    width: 50%;
+    width: 175px;
     }
 .inscription {
     position: absolute;
@@ -178,7 +178,7 @@ header ul {
 }
     .wrapper-theMostPopular__articles img {
         object-fit: cover;
-        width: 40%;
+        width: 33%;
         height: 150px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
@@ -193,6 +193,7 @@ header ul {
         background-color: white;
         border-radius: 20px;
         padding: 5px;
+        width: 100%;
     }
 .wrapper-theMostPopular-articles-infos {
     display: flex;
@@ -205,7 +206,7 @@ header ul {
     order: 3;
 }
 .wrapper-accommodation__articles {
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
 }   
     .wrapper-accommodation__articles a {
@@ -222,6 +223,9 @@ header ul {
     }
     .wrapper-accommodation__articles h3, p, .notations, article {
         padding: 5px;
+    }
+    .wrapper-accommodation__articles article {
+        width: 100%;
     }
 .afficher-plus {
     font-size: 1em;
