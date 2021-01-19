@@ -312,4 +312,12 @@ footer li {
     .section-theMostPopular {
         border-radius: 20px;
     }
+    .section-filter {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-filter h3 {
+        padding-top: 20px;
+        margin-right: 20px;    
+    }
 }
