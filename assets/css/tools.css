@@ -14,6 +14,7 @@
 .notations {
     color:  #F2F2F2;
     display: flex;
+    float: left;
 }
 .notations--active {
     color: #0065FC;
