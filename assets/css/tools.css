@@ -13,6 +13,7 @@
 }
 .notations {
     color:  #F2F2F2;
+    display: flex;
 }
 .notations--active {
     color: #0065FC;
