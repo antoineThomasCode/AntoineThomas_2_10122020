@@ -109,6 +109,7 @@ header ul {
         justify-content: space-between;
         max-width: 400px;
         overflow: auto;
+        flex-wrap: nowrap;
     }
     .location-icon {
         padding: 18px;
@@ -224,6 +225,7 @@ header ul {
     justify-content: space-between;
     padding: 10px;
     overflow-wrap: break-word;
+    width: 80%;
 }
     .wrapper-theMostPopular-articles-infos p, .wrapper-theMostPopular-articles-infos h3 {
         display: flex;
@@ -442,5 +444,15 @@ footer li {
     }
     .inscription {
         top: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+     article {
+        width: 100%;
+        max-width: 500px;    }
+    .section-theMostPopular img {
+        width: 50%;
+        max-width: 110px;
     }
 }
