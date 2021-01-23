@@ -16,9 +16,11 @@
     display: flex;
     float: left;
 }
+/* add this class for blue stars */ 
 .notations--active {
     color: #0065FC;
 }
+/* add this class for - prices */
 .cheaper {
     font-weight: bold;
 }

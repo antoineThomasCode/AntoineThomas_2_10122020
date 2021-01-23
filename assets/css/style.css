@@ -413,7 +413,7 @@ footer li {
     .wrapper-activities__articles .section-activities__medium-image {
         height: 230px;
     }
-    /* grid section activités */ 
+    /* grid section activities Desktop version */ 
     .wrapper-activities__articles {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -434,6 +434,7 @@ footer li {
     .section-activities__5th-article { grid-area: section-activities__5th-article; }
     .section-activities__6th-article { grid-area: section-activities__6th-article; }
 }
+/* modifications for very small screens */
 
 @media only screen and (max-width: 270px) {
     body {
@@ -446,6 +447,7 @@ footer li {
         top: 30px;
     }
 }
+/*  changes to resolve unwanted behavior on Firefox */
 
 @media only screen and (max-width: 768px) {
      article {
