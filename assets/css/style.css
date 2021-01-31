@@ -10,7 +10,7 @@ section {
 h1 {
     font-weight: bold;
     font-size: 1.5em;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 h2 {
     font-size: 1.3em;
@@ -82,6 +82,38 @@ header li {
 header li:hover {
     border-bottom: solid 3px #0065FC;
 }
+/*section search*/
+
+#section-search form {
+    justify-content: space-between;
+    flex-basis: 100%;
+    max-width: 350px;
+    border: solid 2px  #F2F2F2;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+#section-search label {
+    padding: 20px;
+    background-color:  #F2F2F2;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+#section-search button {
+    border-radius:  18px;
+    border: none;
+    color: white;
+    background-color: #0065FC;
+}
+#section-search .btn-search--desktop {
+    display: none;
+}
+#section-search .btn-search--mobile {
+    padding: 0 15px;
+}
+#section-search .fa-search {
+    font-size: 1.2em;
+}
+
 
 
 
