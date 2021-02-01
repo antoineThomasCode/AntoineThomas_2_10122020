@@ -22,7 +22,7 @@ h3 {
     font-size: 1.1em;
 }
 p {
-    font-size: 1em;
+    font-size: 0.95em;
     padding-bottom: 10px;
 }
 header, main {
@@ -170,6 +170,7 @@ ul .fas {
 }
 #section-theMostPopular a {
     display: flex;
+    flex-basis: 100%;
 }
 .wrapper-theMostPopular-articles-infos .notations {
     margin-top: auto;
@@ -177,19 +178,26 @@ ul .fas {
 #section-theMostPopular img {
     height: 150px;
     object-fit: cover;
+    width: fit-content;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 #section-theMostPopular div {
     flex-direction: column;
     justify-content: space-between;
 }
 #section-theMostPopular article {
-    margin: 10px auto;
+    margin: 10px 0;
+    padding: 3px;
 }
 #section-theMostPopular figure {
     flex-basis: 30%;
     display: flex;
 }
-
+#section-theMostPopular .wrapper-theMostPopular-articles-infos {
+    flex-basis: 70%;
+    display: flex;
+}
 /*footer */ 
 
 footer {
@@ -204,6 +212,9 @@ footer li {
     padding: 10px 0;
 }
 
+
+
+/* règles à effacer - utilisation test */
 img {
     max-width: 300px;
 }
