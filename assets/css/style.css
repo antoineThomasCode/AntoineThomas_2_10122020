@@ -254,11 +254,16 @@ header li:hover a {
 }
 #section-accommodations img,
 #section-activities img {
-  height: 130px;
   object-fit: cover;
   width: 100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+#section-accommodations img {
+    height: 130px;
+}
+#section-activities img {
+    height: 150px;
 }
 #section-accommodations figure,
 #section-activities figure {
