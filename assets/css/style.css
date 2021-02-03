@@ -5,7 +5,7 @@ body {
     font-family: Raleway;
 }
 section {
-    padding: 10px 20px;
+    padding: 20px;
 }
 h1 {
     font-weight: bold;
@@ -15,7 +15,6 @@ h1 {
 h2 {
     font-size: 1.3em;
     font-weight: bold;
-    padding: 20px 0;
 }
 h3 {
     font-weight: bold;
@@ -54,7 +53,7 @@ a:hover {
 }
 /*header*/ 
 header {
-    padding: 10px 0;
+    padding-top: 10px;
     justify-content: space-between;
 }
 header a {
@@ -83,6 +82,9 @@ header li {
 header li:hover {
     border-bottom: solid 3px #0065FC;
 }
+header li:hover a {
+    color: #0065FC;
+}
 /*section search*/
 
 #section-search form {
@@ -92,7 +94,7 @@ header li:hover {
     max-width: 350px;
     border: solid 2px  #F2F2F2;
     border-radius: 20px;
-    margin: 20px 0;
+    margin-top: 20px;
 }
 #section-search label {
     padding: 20px;
@@ -106,13 +108,13 @@ header li:hover {
     color: white;
     background-color: #0065FC;
 }
-#section-search .btn-search--desktop {
+#section-search span:first-child {
     display: none;
 }
-#section-search .btn-search--mobile {
+#section-search span:nth-child(2) {
     padding: 0 15px;
 }
-#section-search .fa-search {
+.btn-search i {
     font-size: 1.2em;
 }
 #section-search input[type="text"] { 
@@ -129,18 +131,20 @@ header li:hover {
 /* section Filters */
 
 #section-filter ul {
-     margin: 20px 0;
+    margin: 20px 0;
 }
 #section-filter li {
     border: solid 2px #F2F2F2;
     border-radius: 50px;
-    padding-right: 5px;
+    padding-right: 15px;
     font-size: 1em;
     font-weight: bold;
     margin: 5px;
-
 }
-ul .fas {
+#section-filter li:hover {
+    background-color:  #DEEBFF;
+}
+#section-filter ul i {
     color: #0065FC;
     width: 3em;
     line-height: 3em;
@@ -149,24 +153,30 @@ ul .fas {
     background-color: #DEEBFF;
     margin-right: 5px;
 }
-#section-filter .fa-info {
+#section-filter p {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#section-filter p i {
     font-size: 0.7em;
-    width: 2em;
+    width: 2.5em;
     line-height: 2em;
     border-radius: 50%;
     border: solid 1px lightgray;
     color: #0065FC;
     text-align: center;
-    float: left;
     margin-right: 10px;
 }
 /* The most popular section */ 
 #section-theMostPopular {
     background-color: #F2F2F2;
+    flex-direction: column;
 }
-
 #section-theMostPopular h2 {
     justify-content: space-between;
+    flex-basis: 100%;
 }
 #section-theMostPopular a {
     display: flex;
@@ -178,26 +188,39 @@ ul .fas {
 #section-theMostPopular img {
     height: 150px;
     object-fit: cover;
-    width: fit-content;
+    width: 100%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-}
-#section-theMostPopular div {
-    flex-direction: column;
-    justify-content: space-between;
 }
 #section-theMostPopular article {
     margin: 10px 0;
     padding: 3px;
 }
 #section-theMostPopular figure {
-    flex-basis: 30%;
-    display: flex;
+    flex-basis: 40%;
 }
-#section-theMostPopular .wrapper-theMostPopular-articles-infos {
-    flex-basis: 70%;
+#section-theMostPopular div {
+    flex-basis: 60%;
     display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: flex-start;
 }
+}
+#section-theMostPopular h2 {
+    margin-bottom: 15px;
+}
+#section-theMostPopular h3 {
+    margin-bottom: 10px;
+}
+#section-theMostPopular .notations {
+    color:  #F2F2F2;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: auto;
+    padding: 0;
+}
+
 /*footer */ 
 
 footer {

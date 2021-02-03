@@ -8,3 +8,6 @@
 .f-wrap {
     flex-wrap: wrap;
 }
+.padd-top-10px {
+    padding-top: 10px;
+}
