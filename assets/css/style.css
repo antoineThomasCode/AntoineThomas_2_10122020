@@ -48,10 +48,9 @@ a {
     text-decoration: none;
     color: black;
 }
-
 /*header*/ 
 header {
-    padding-top: 10px;
+    padding-top: 20px;
     justify-content: space-between;
 }
 header a {
@@ -222,6 +221,44 @@ header li:hover a {
     margin-top: auto;
     padding: 0;
 }
+/* section accommodations and section activities*/ 
+#section-accommodations, #section-activities {
+    flex-direction: column;
+    padding-top: 30px;
+}
+#section-accommodations h2, #section-activities h2 {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+#section-accommodations h3, #section-activities h3, #section-accommodations p, #section-accommodations .notations {
+    padding: 0 0 10px 10px;
+}
+#section-accommodations article {
+    margin: 15px 0;
+    padding: 3px;
+}
+#section-activities article {
+    margin: 15px 0;
+}
+#section-accommotations a, #section-activities a {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+#section-accommodations img, #section-activities img {
+    height: 130px;
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#section-accommodations figure, #section-activities figure {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+}
+#section-accommodations .notations {
+    color: #F2F2F2;
+}
 
 /*footer */ 
 
@@ -239,10 +276,7 @@ footer li {
 
 
 
-/* règles à effacer - utilisation test */
-img {
-    max-width: 300px;
-}
+
 
 
 
