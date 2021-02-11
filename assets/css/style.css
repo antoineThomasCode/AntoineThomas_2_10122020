@@ -19,7 +19,7 @@ h2 {
 }
 h3 {
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 p {
     font-size: 0.95em;
@@ -176,9 +176,8 @@ ul .fas {
     margin-top: auto;
 }
 #section-theMostPopular img {
-    height: 150px;
+    height: 130px;
     object-fit: cover;
-    width: fit-content;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -197,6 +196,7 @@ ul .fas {
 #section-theMostPopular .wrapper-theMostPopular-articles-infos {
     flex-basis: 70%;
     display: flex;
+    padding: 10px;
 }
 /*footer */ 
 
