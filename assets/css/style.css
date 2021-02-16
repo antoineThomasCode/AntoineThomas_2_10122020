@@ -51,7 +51,7 @@ a {
   text-decoration: none;
   color: black;
 }
-/* blues stars for notations */ 
+/* blues stars for notations */
 .active {
   color: #0065fc;
 }
@@ -60,7 +60,8 @@ header {
   justify-content: space-between;
   align-items: stretch;
 }
-header a:nth-child(1), header a:nth-child(2) {
+header a:nth-child(1),
+header a:nth-child(2) {
   padding: 20px 20px 0 20px;
 }
 header a:nth-child(2) {
@@ -189,13 +190,13 @@ header li:hover a {
 #section-theMostPopular img {
   object-fit: cover;
   width: 100%;
-  height: 100% ;
+  height: 100%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 #section-theMostPopular article {
-   padding: 4px;
-   margin-bottom: 10px;
+  padding: 4px;
+  margin-bottom: 10px;
 }
 #section-theMostPopular figure {
   flex-basis: 40%;
@@ -260,10 +261,10 @@ header li:hover a {
   border-top-right-radius: 20px;
 }
 #section-accommodations img {
-    height: 130px;
+  height: 130px;
 }
 #section-activities img {
-    height: 150px;
+  height: 150px;
 }
 #section-accommodations figure,
 #section-activities figure {
