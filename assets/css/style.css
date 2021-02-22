@@ -209,8 +209,8 @@ header li:hover a {
   flex-basis: 100%;
 }
 #section-theMostPopular figure {
-  flex-basis: 40%;
-  height: 150px;
+  flex-basis: 45%;
+  height: 155px;
 }
 #section-theMostPopular div {
   flex-basis: 60%;
@@ -322,8 +322,7 @@ footer h3 {
   #section-theMostPopular h2, #section-accommodations h2, #section-activities h2 {
     flex-basis: 100%;
   }
-  #section-accommodations,
-  #section-activities {
+  #section-accommodations {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -331,20 +330,22 @@ footer h3 {
   #section-accommodations article {
     flex-basis: 48%;
   }
-  #container-activities-items  {
+  #section-activities #container-activities-items  {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  #container-activities-items div {
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    width: 100%;
-    column-gap: 20px;
   }
-  #container-activities-items article {
-    width: 100%;
+  #container-activities-items > div:nth-child(4), #container-activities-items > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+  }
+  #container-activities-items > div:nth-child(1), #container-activities-items > div:nth-child(3) {
+    display: flex;
+    width: 48%;
+    height: 200px;
+    order: 1;
   }
 }
+
