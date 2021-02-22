@@ -37,7 +37,6 @@ main {
 article {
   box-shadow: 0px 0px 35px 3px rgba(172, 172, 172, 0.27);
   border-radius: 20px;
-  max-width: 650px;
   background-color: white;
 }
 article:hover {
@@ -59,7 +58,7 @@ a {
 header {
   padding-top: 20px;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
 }
 header > a:nth-child(1) {
   padding-left: 20px;
@@ -67,7 +66,6 @@ header > a:nth-child(1) {
 
 header > a:nth-child(2) {
   padding-right: 20px;
-  margin-top: 20px;
   color: #0065fc;
 }
 header nav {
@@ -260,10 +258,7 @@ header li:hover a {
   font-size: 0.9em;
   padding-top: 5px;
 }
-#section-accommodations a > div {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+
 #section-accommodations div i {
   font-size: 0.8em;
 }
@@ -273,10 +268,10 @@ header li:hover a {
   row-gap: 20px;
 }
 #section-accommodations figure {
-  height: 120px;
+  height: 58%;
 }
 #section-activities figure {
-  height: 140px;
+  height: 75%;
 }
 #section-accommodations img,
 #section-activities img {
@@ -287,13 +282,14 @@ header li:hover a {
   height: 100%;
 }
 #section-activities a, #section-accommodations a {
-  height: 90%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  row-gap: 15px;
 }
-#section-activities article {
-  height: 190px;
+#section-activities article, #section-accommodations article {
+  height: 200px;
 }
 /*footer */
 
