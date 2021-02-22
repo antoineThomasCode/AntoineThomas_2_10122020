@@ -348,4 +348,47 @@ footer h3 {
     order: 1;
   }
 }
-
+@media screen and (min-width: 762px) {
+  #section-theMostPopular article {
+    flex-basis: 32%;
+  }
+  header {
+    padding-top: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  header nav {
+    flex-basis: 30%;
+    justify-content: space-between;
+    margin-top: 0;
+  }
+  header > a:nth-child(2) {
+    display: flex;
+    flex-basis: 15%;
+    order: 1;
+    padding-right: 0;
+    justify-content: center;
+    padding-top: 28px;
+  }
+  header > a:first-child {
+    margin-right: auto;
+    padding-top: 10px;
+  }
+  header li {
+    border-top: solid 2px #f2f2f2;
+    padding-top: 25px;
+    padding-bottom: 0;
+    border-bottom: none;
+    justify-content: center;
+    margin-top: 0;
+  }
+  header li:hover {
+    border-top: solid 2px #0065fc;
+    border-bottom: none;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
