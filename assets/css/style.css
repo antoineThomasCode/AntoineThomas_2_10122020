@@ -132,9 +132,11 @@ header li:hover a {
   overflow: auto;
 }
 #section-search form ::placeholder {
-  color: black;
+  color: #000;
   font-weight: bold;
+  opacity: 1;
 }
+
 /* section Filters */
 #section-filter {
   flex-direction: column;
@@ -306,4 +308,43 @@ footer li {
 }
 footer h3 {
   margin: 20px 0;
+}
+@media screen and (min-width: 576px) {
+  #section-theMostPopular {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #section-theMostPopular article {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  #section-theMostPopular h2, #section-accommodations h2, #section-activities h2 {
+    flex-basis: 100%;
+  }
+  #section-accommodations,
+  #section-activities {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #section-accommodations article {
+    flex-basis: 48%;
+  }
+  #container-activities-items  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #container-activities-items div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    column-gap: 20px;
+  }
+  #container-activities-items article {
+    width: 100%;
+  }
 }
