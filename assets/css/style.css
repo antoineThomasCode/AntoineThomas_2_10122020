@@ -24,7 +24,7 @@ h3 {
 p {
   font-size: 1em;
   padding-bottom: 10px;
-  font-weight: 500;
+  font-weight: normal;
 }
 header,
 main {
@@ -79,7 +79,7 @@ header ul {
 }
 header li {
   width: 50%;
-  border-bottom: solid 2px #f2f2f2;
+  border-bottom: solid 3px #f2f2f2;
   padding-bottom: 20px;
   justify-content: center;
 }
@@ -132,9 +132,9 @@ header li:hover a {
   overflow: auto;
 }
 #section-search form ::placeholder {
-  color: #000;
-  font-weight: bold;
+  color: black;
   opacity: 1;
+  font-weight: bold;
 }
 
 /* section Filters */
@@ -169,6 +169,7 @@ header li:hover a {
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  line-height: 1.2em;
 }
 #section-filter p i {
   display: flex;
@@ -315,7 +316,7 @@ footer h3 {
     flex-wrap: wrap;
   }
   #section-theMostPopular article {
-    max-width: 400px;
+    flex-basis: 65%;
     margin: 0 auto;
   }
 
