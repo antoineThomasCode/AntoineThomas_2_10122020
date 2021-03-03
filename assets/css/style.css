@@ -350,8 +350,11 @@ footer h3 {
   }
 }
 @media screen and (min-width: 762px) {
+  #section-theMostPopular {
+    flex-direction: column;
+  }
   #section-theMostPopular article {
-    flex-basis: 32%;
+    width: 65%;
   }
   header {
     padding-top: 0;
