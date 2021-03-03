@@ -409,6 +409,10 @@ footer h3 {
   }
   #section-theMostPopular {
     border-radius: 20px;
+    flex-direction: row;
+  }
+  #section-theMostPopular article {
+    flex-basis: 32%;
   }
   #section-accommodations article {
     flex-basis: 32%;
