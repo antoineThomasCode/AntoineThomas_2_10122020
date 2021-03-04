@@ -431,7 +431,7 @@ footer h3 {
   }
   #section-theMostPopular {
     flex-direction: column;
-    flex-basis: 31%;
+    flex-basis: 32%;
     order: 1;
     padding: 30px;
   }
@@ -446,7 +446,7 @@ footer h3 {
     height: 121px;
   }
   #section-accommodations {
-    flex-basis: 69%;
+    flex-basis: 68%;
     border-radius: 20px;
     background-color: #f2f2f2;
     padding: 30px;
