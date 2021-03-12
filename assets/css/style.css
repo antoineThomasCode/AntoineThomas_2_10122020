@@ -502,6 +502,7 @@ footer h3 {
   #container-activities-items > div:nth-child(2),
    #container-activities-items > div:nth-child(4) {
     flex-direction: column;
+    row-gap: 40px;
   }
   #container-activities-items > div:first-child {
     order: 1;
@@ -521,23 +522,23 @@ footer h3 {
   }
   #container-activities-items > div:first-child article a figure,
   #container-activities-items > div:nth-child(3) article a figure {
-    height: 90%;
+    height: 91%;
   }
   #container-activities-items > div:first-child article a figcaption,
   #container-activities-items > div:nth-child(3) article a figcaption {
-    height: 10%;
+    height: 9%;
   }
   #container-activities-items > div:nth-child(2) >  article:first-child,
   #container-activities-items > div:nth-child(4) >  article:nth-child(2) {
-    height: 51%;
+    height: 53%;
   }
   #container-activities-items > div:nth-child(2) >  article:nth-child(2),
   #container-activities-items > div:nth-child(4) >  article:nth-child(1) {
-    height: 42%;
+    height: 30%;
   }
   #container-activities-items > div:nth-child(2) > article:first-child figure,
   #container-activities-items > div:nth-child(4)  article:nth-child(2) figure {
-    height: 75%;
+    height: 76%;
   }
   #container-activities-items > div:nth-child(2)  article:nth-child(2) figure,
   #container-activities-items > div:nth-child(4)  article:first-child figure {
@@ -545,14 +546,14 @@ footer h3 {
   }
   #container-activities-items > div:nth-child(2)  article:first-child figcaption,
   #container-activities-items > div:nth-child(4)  article:nth-child(2) figcaption {
-    height: 25%;
+    height: 33%;
   }
   #container-activities-items > div:nth-child(2)  article:nth-child(2) figcaption,
   #container-activities-items > div:nth-child(4)  article:first-child figcaption {
-    height: 30%;
+    height: 33%;
   }
   #container-activities-items > div:nth-child(2) > article:nth-child(2) figure,
    #container-activities-items > div:nth-child(4) > article:first-child figure  {
-    height: 70%;
+    height: 67%;
   }
 }
