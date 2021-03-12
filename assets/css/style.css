@@ -376,7 +376,7 @@ footer h3 {
   }
   header li {
     border-top: solid 2px #f2f2f2;
-    padding-top: 25px;
+    padding-top: 26px;
     padding-bottom: 0;
     border-bottom: none;
     justify-content: center;
@@ -488,48 +488,71 @@ footer h3 {
   }
   #section-activities figcaption {
     height: 10%;
+    align-content: center;
+    padding-left: 5px;
   }
   #container-activities-items {
     height: 400px;
+    margin-bottom: 20px;
   }
   #container-activities-items > div {
-    flex-basis: 23.5%;
+    flex-basis: 23%;
     height: 100% !important;
-    background-color: red;
   }
-  #container-activities-items > div:nth-child(2), #container-activities-items > div:nth-child(4) {
+  #container-activities-items > div:nth-child(2),
+   #container-activities-items > div:nth-child(4) {
     flex-direction: column;
   }
   #container-activities-items > div:first-child {
     order: 1;
   }
-  #container-activities-items > div:first-child > article, #container-activities-items > div:nth-child(3) > article {
-    height: 100%;
-  }
-  #container-activities-items > div:first-child article a figure {
-    height: 93%;
-  }
-  #container-activities-items > div:first-child article a figcaption {
-    height: 7%;
-  }
   #container-activities-items > div:nth-child(2) {
     order: 2;
-  }
-  #container-activities-items > div:nth-child(2) >  article:first-child {
-    flex: 0 0 1 !important;
-    background-color: pink;
-  }
-  #container-activities-items > div:nth-child(2)  article:first-child figure, #container-activities-items > div:nth-child(2)  article:nth-child(2) figure {
-    height: 80%;
-  }
-  #container-activities-items > div:nth-child(2) > article:nth-child(2) {
-    flex-basis: 40%;
-    background-color: green;
   }
   #container-activities-items > div:nth-child(3) {
     order: 3;
   }
   #container-activities-items > div:nth-child(4) {
     order: 4;
+  }
+  #container-activities-items > div:first-child > article,
+  #container-activities-items > div:nth-child(3) > article {
+    height: 100%;
+  }
+  #container-activities-items > div:first-child article a figure,
+  #container-activities-items > div:nth-child(3) article a figure {
+    height: 90%;
+  }
+  #container-activities-items > div:first-child article a figcaption,
+  #container-activities-items > div:nth-child(3) article a figcaption {
+    height: 10%;
+  }
+  #container-activities-items > div:nth-child(2) >  article:first-child,
+  #container-activities-items > div:nth-child(4) >  article:nth-child(2) {
+    height: 51%;
+  }
+  #container-activities-items > div:nth-child(2) >  article:nth-child(2),
+  #container-activities-items > div:nth-child(4) >  article:nth-child(1) {
+    height: 42%;
+  }
+  #container-activities-items > div:nth-child(2) > article:first-child figure,
+  #container-activities-items > div:nth-child(4)  article:nth-child(2) figure {
+    height: 75%;
+  }
+  #container-activities-items > div:nth-child(2)  article:nth-child(2) figure,
+  #container-activities-items > div:nth-child(4)  article:first-child figure {
+    height: 70%;
+  }
+  #container-activities-items > div:nth-child(2)  article:first-child figcaption,
+  #container-activities-items > div:nth-child(4)  article:nth-child(2) figcaption {
+    height: 25%;
+  }
+  #container-activities-items > div:nth-child(2)  article:nth-child(2) figcaption,
+  #container-activities-items > div:nth-child(4)  article:first-child figcaption {
+    height: 30%;
+  }
+  #container-activities-items > div:nth-child(2) > article:nth-child(2) figure,
+   #container-activities-items > div:nth-child(4) > article:first-child figure  {
+    height: 70%;
   }
 }
