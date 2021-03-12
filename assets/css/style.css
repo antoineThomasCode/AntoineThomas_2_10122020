@@ -140,6 +140,7 @@ header li:hover a {
   border: none;
   color: white;
   background-color: #0065fc;
+  margin: -1px -1px -1px 0;
 }
 #section-search span:first-child {
   display: none;
