@@ -89,9 +89,7 @@ header li:hover {
 header li:hover a {
   color: #0065fc;
 }
-
 /*section search*/
-
 #section-search form {
   justify-content: space-between;
   flex-wrap: nowrap;
@@ -137,7 +135,6 @@ header li:hover a {
   font-weight: bold;
   opacity: 1;
 }
-
 /* section Filters */
 #section-filter {
   flex-direction: column;
@@ -281,7 +278,8 @@ header li:hover a {
   border-top-right-radius: 20px;
   height: 100%;
 }
-#section-activities a, #section-accommodations a {
+#section-activities a,
+#section-accommodations a {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -289,9 +287,10 @@ header li:hover a {
   row-gap: 10px;
 }
 #section-activities a {
-  row-gap: 15px; ----------------------------
+  row-gap: 15px;
 }
-#section-activities article, #section-accommodations article {
+#section-activities article,
+#section-accommodations article {
   height: 200px;
 }
 /*footer */
@@ -317,7 +316,9 @@ footer h3 {
     margin: 0 auto;
   }
 
-  #section-theMostPopular h2, #section-accommodations h2, #section-activities h2 {
+  #section-theMostPopular h2,
+  #section-accommodations h2,
+  #section-activities h2 {
     flex-basis: 100%;
   }
   #section-accommodations {
@@ -335,12 +336,14 @@ footer h3 {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  #container-activities-items > div:nth-child(4), #container-activities-items > div:nth-child(2) {
+  #container-activities-items > div:nth-child(4),
+  #container-activities-items > div:nth-child(2) {
     display: flex;
     flex-direction: column;
     width: 48%;
   }
-  #container-activities-items > div:nth-child(1), #container-activities-items > div:nth-child(3) {
+  #container-activities-items > div:nth-child(1),
+  #container-activities-items > div:nth-child(3) {
     display: flex;
     width: 48%;
     height: 200px;
@@ -420,23 +423,32 @@ footer h3 {
   #section-accommodations article {
     flex-basis: 32%;
   }
-  #container-activities-items > div:nth-child(4), #container-activities-items > div:nth-child(2) {
+  #container-activities-items > div:nth-child(4),
+  #container-activities-items > div:nth-child(2) {
     width: 65%;
     flex-direction: row;
     column-gap: 20px;
   }
-  #container-activities-items > div:nth-child(1), #container-activities-items > div:nth-child(3) {
+  #container-activities-items > div:nth-child(1),
+  #container-activities-items > div:nth-child(3) {
     width: 33%;
     height: 200px;
   }
   #container-activities-items > div:nth-child(2) {
     order: 1;
   }
-  #container-activities-items > div:nth-child(4) article, #container-activities-items > div:nth-child(2) article {
+  #container-activities-items > div:nth-child(4) article,
+  #container-activities-items > div:nth-child(2) article {
     flex-basis: 50%;
   }
 }
 @media screen and (min-width: 1200px) {
+  #section-filter {
+    padding-top: 0;
+  }
+  #section-filter p {
+    margin-top: 20px;
+  }
   #container-popular-and-accommodations {
     display: flex;
     flex-direction: row;
@@ -500,7 +512,7 @@ footer h3 {
     height: 100% !important;
   }
   #container-activities-items > div:nth-child(2),
-   #container-activities-items > div:nth-child(4) {
+  #container-activities-items > div:nth-child(4) {
     flex-direction: column;
     row-gap: 40px;
   }
@@ -537,19 +549,19 @@ footer h3 {
     height: 30%;
   }
   #container-activities-items > div:nth-child(2) > article:first-child figure,
-  #container-activities-items > div:nth-child(4)  article:nth-child(2) figure {
+  #container-activities-items > div:nth-child(4) > article:nth-child(2) figure {
     height: 76%;
   }
-  #container-activities-items > div:nth-child(2)  article:nth-child(2) figure,
-  #container-activities-items > div:nth-child(4)  article:first-child figure {
+  #container-activities-items > div:nth-child(2) > article:nth-child(2) figure,
+  #container-activities-items > div:nth-child(4) > article:first-child figure {
     height: 70%;
   }
-  #container-activities-items > div:nth-child(2)  article:first-child figcaption,
-  #container-activities-items > div:nth-child(4)  article:nth-child(2) figcaption {
+  #container-activities-items > div:nth-child(2) > article:first-child figcaption,
+  #container-activities-items > div:nth-child(4) > article:nth-child(2) figcaption {
     height: 33%;
   }
-  #container-activities-items > div:nth-child(2)  article:nth-child(2) figcaption,
-  #container-activities-items > div:nth-child(4)  article:first-child figcaption {
+  #container-activities-items > div:nth-child(2) > article:nth-child(2) figcaption,
+  #container-activities-items > div:nth-child(4) > article:first-child figcaption {
     height: 33%;
   }
   #container-activities-items > div:nth-child(2) > article:nth-child(2) figure,
