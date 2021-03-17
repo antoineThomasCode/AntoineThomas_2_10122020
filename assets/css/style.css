@@ -413,10 +413,9 @@ footer {
 footer > div {
   justify-content: flex-start;
   max-width: 1170px;
-  margin: 0 auto;
   flex-basis: 100%;
   padding: 0 20px;
-  flex-direction: row;
+  flex-direction: column;
 }
 footer > div > nav {
   flex-basis: 31%;
@@ -589,7 +588,9 @@ footer h3 {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
+  }
 }
+
 @media screen and (min-width: 992px) {
   header img {
     width: 140px;
@@ -651,6 +652,10 @@ footer h3 {
   #container-activities-items > div:nth-child(2) article {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
+  }
+  footer > div {
+    flex-direction: row;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 1200px) {
