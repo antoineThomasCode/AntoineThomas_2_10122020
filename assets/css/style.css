@@ -60,6 +60,13 @@ a {
   text-decoration: none;
   color: black;
 }
+figcaption {
+  font-weight: bold;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
 /* blues stars for notations */
 .active {
   color: #0065fc;
@@ -736,7 +743,8 @@ footer h3 {
     height: 10%;
     -ms-flex-line-pack: center;
     align-content: center;
-    padding-left: 5px;
+    padding-left: 15px;
+    font-weight: bold;
   }
   #container-activities-items {
     height: 400px;
@@ -781,15 +789,16 @@ footer h3 {
   }
   #container-activities-items > div:first-child article a figure,
   #container-activities-items > div:nth-child(3) article a figure {
-    height: 91%;
+    height: 85%;
   }
   #container-activities-items > div:first-child article a figcaption,
   #container-activities-items > div:nth-child(3) article a figcaption {
-    height: 9%;
+    height: 13%;
   }
   #container-activities-items > div:nth-child(2) > article:first-child,
   #container-activities-items > div:nth-child(4) > article:nth-child(2) {
-    height: 53%;
+    height: 15%;
+    padding-bottom: 20px;
   }
   #container-activities-items > div:nth-child(2) > article:nth-child(2),
   #container-activities-items > div:nth-child(4) > article:nth-child(1) {
@@ -797,7 +806,7 @@ footer h3 {
   }
   #container-activities-items > div:nth-child(2) > article:first-child figure,
   #container-activities-items > div:nth-child(4) > article:nth-child(2) figure {
-    height: 76%;
+    height: 77%;
   }
   #container-activities-items > div:nth-child(2) > article:nth-child(2) figure,
   #container-activities-items > div:nth-child(4) > article:first-child figure {
