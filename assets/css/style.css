@@ -602,3 +602,38 @@
       height: 130px;
     }
   }
+  @media screen and (max-width : 350px) {
+    header nav ul li {
+      font-size: 12px;
+    }
+    h1 {
+      font-size: 18px;
+    }
+    h2 {
+      font-size: 16px;
+    }
+    h3 {
+      font-size: 12px;
+    }
+    p {
+      font-size: 14px;
+    }
+    #search form ::placeholder {
+      font-size: 14px;
+    }
+    #filter ul li {
+      font-size: 12px;
+    }
+    #filter p {
+      font-size: 12px;
+    }
+    #MostPopular article a div h3 {
+      font-size: 13px;
+    }
+    #MostPopular article a div  p, 
+    #MostPopular article a div i, 
+    #accommodations article div p, 
+    #accommodations article  div div i {
+      font-size: 12px;
+    }
+  }
